@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libprogram.a  CMakeFiles/program.dir/NumericalMethods.cpp.o CMakeFiles/program.dir/RunAlpha.cpp.o CMakeFiles/program.dir/Constants.cpp.o CMakeFiles/program.dir/AdlerFunction.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libprogram.a
