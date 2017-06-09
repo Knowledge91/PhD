@@ -10,6 +10,7 @@
 class RunAlphaFixture : public ::testing::Test {
 protected:
     RunAlpha runAlpha;
+
 };
 
 

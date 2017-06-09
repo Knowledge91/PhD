@@ -9627,10 +9627,8 @@ iostream
 -
 cmath
 -
-Constants.h
-/Users/Knowledge/Developer/PhD/TauFitter/program/Constants.h
-NumericalMethods.h
-/Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.h
 boost/math/tools/roots.hpp
 -
+Constants.h
+/Users/Knowledge/Developer/PhD/TauFitter/program/Constants.h
 

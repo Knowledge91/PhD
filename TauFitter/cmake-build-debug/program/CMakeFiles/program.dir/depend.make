@@ -909,7 +909,6 @@ program/CMakeFiles/program.dir/AdlerFunction.cpp.o: ../frameworks/boost_1_64_0/b
 program/CMakeFiles/program.dir/AdlerFunction.cpp.o: ../program/AdlerFunction.cpp
 program/CMakeFiles/program.dir/AdlerFunction.cpp.o: ../program/AdlerFunction.h
 program/CMakeFiles/program.dir/AdlerFunction.cpp.o: ../program/Constants.h
-program/CMakeFiles/program.dir/AdlerFunction.cpp.o: ../program/NumericalMethods.h
 program/CMakeFiles/program.dir/AdlerFunction.cpp.o: ../program/RunAlpha.h
 
 program/CMakeFiles/program.dir/Constants.cpp.o: ../program/Constants.cpp
@@ -1824,7 +1823,6 @@ program/CMakeFiles/program.dir/RunAlpha.cpp.o: ../frameworks/boost_1_64_0/boost/
 program/CMakeFiles/program.dir/RunAlpha.cpp.o: ../frameworks/boost_1_64_0/boost/utility/swap.hpp
 program/CMakeFiles/program.dir/RunAlpha.cpp.o: ../frameworks/boost_1_64_0/boost/version.hpp
 program/CMakeFiles/program.dir/RunAlpha.cpp.o: ../program/Constants.h
-program/CMakeFiles/program.dir/RunAlpha.cpp.o: ../program/NumericalMethods.h
 program/CMakeFiles/program.dir/RunAlpha.cpp.o: ../program/RunAlpha.cpp
 program/CMakeFiles/program.dir/RunAlpha.cpp.o: ../program/RunAlpha.h
 

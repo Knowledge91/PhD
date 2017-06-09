@@ -42,7 +42,7 @@ TEST_F(NumericalMethodsFixture, NewtonRaphson) {
     Funcd funcd;
     double root = numericalMethods.rtnewt(funcd, 0., 10., 1e-15);
     std::cout << "rtsafe : " << root << std::endl;
-    EXPECT_NEAR(7, 7., Constants::numPrecision);
+    EXPECT_NEAR(7, 7., 1e-15);
 
 //    Funcd2 funcd2;
 //    double root2 = numericalMethods.rtsafe(funcd2, 0.2, 10., 1e-15);

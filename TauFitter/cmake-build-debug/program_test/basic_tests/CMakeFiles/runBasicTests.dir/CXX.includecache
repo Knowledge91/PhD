@@ -9605,12 +9605,10 @@ iostream
 -
 cmath
 -
-Constants.h
-../program/Constants.h
-NumericalMethods.h
-../program/NumericalMethods.h
 boost/math/tools/roots.hpp
 -
+Constants.h
+../program/Constants.h
 
 ../program_test/lib/gtest-1.7.0/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
@@ -9896,19 +9894,19 @@ gtest/gtest.h
 Constants.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/Constants.h
 
-/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/numericalMethods_check.cpp
+/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/RunAlphaFixture.cpp
 gtest/gtest.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/gtest/gtest.h
-NumericalMethods.h
-/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/NumericalMethods.h
 RunAlpha.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/RunAlpha.h
 Constants.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/Constants.h
 
-/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/runAlpha_check.cpp
+/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/numericalMethods_check.cpp
 gtest/gtest.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/gtest/gtest.h
+NumericalMethods.h
+/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/NumericalMethods.h
 RunAlpha.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/RunAlpha.h
 Constants.h

@@ -223,6 +223,33 @@ ConstantsFixture.cpp.s:
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/ConstantsFixture.cpp.s
 .PHONY : ConstantsFixture.cpp.s
 
+RunAlphaFixture.o: RunAlphaFixture.cpp.o
+
+.PHONY : RunAlphaFixture.o
+
+# target to build an object file
+RunAlphaFixture.cpp.o:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.o
+.PHONY : RunAlphaFixture.cpp.o
+
+RunAlphaFixture.i: RunAlphaFixture.cpp.i
+
+.PHONY : RunAlphaFixture.i
+
+# target to preprocess a source file
+RunAlphaFixture.cpp.i:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.i
+.PHONY : RunAlphaFixture.cpp.i
+
+RunAlphaFixture.s: RunAlphaFixture.cpp.s
+
+.PHONY : RunAlphaFixture.s
+
+# target to generate assembly for a file
+RunAlphaFixture.cpp.s:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.s
+.PHONY : RunAlphaFixture.cpp.s
+
 numericalMethods_check.o: numericalMethods_check.cpp.o
 
 .PHONY : numericalMethods_check.o
@@ -250,33 +277,6 @@ numericalMethods_check.cpp.s:
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.s
 .PHONY : numericalMethods_check.cpp.s
 
-runAlpha_check.o: runAlpha_check.cpp.o
-
-.PHONY : runAlpha_check.o
-
-# target to build an object file
-runAlpha_check.cpp.o:
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/runAlpha_check.cpp.o
-.PHONY : runAlpha_check.cpp.o
-
-runAlpha_check.i: runAlpha_check.cpp.i
-
-.PHONY : runAlpha_check.i
-
-# target to preprocess a source file
-runAlpha_check.cpp.i:
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/runAlpha_check.cpp.i
-.PHONY : runAlpha_check.cpp.i
-
-runAlpha_check.s: runAlpha_check.cpp.s
-
-.PHONY : runAlpha_check.s
-
-# target to generate assembly for a file
-runAlpha_check.cpp.s:
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/runAlpha_check.cpp.s
-.PHONY : runAlpha_check.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,12 +296,12 @@ help:
 	@echo "... ConstantsFixture.o"
 	@echo "... ConstantsFixture.i"
 	@echo "... ConstantsFixture.s"
+	@echo "... RunAlphaFixture.o"
+	@echo "... RunAlphaFixture.i"
+	@echo "... RunAlphaFixture.s"
 	@echo "... numericalMethods_check.o"
 	@echo "... numericalMethods_check.i"
 	@echo "... numericalMethods_check.s"
-	@echo "... runAlpha_check.o"
-	@echo "... runAlpha_check.i"
-	@echo "... runAlpha_check.s"
 .PHONY : help
 
 

@@ -12,15 +12,15 @@
 class AdlerFunction: public RunAlpha {
 
 public:
-    AdlerFunction() { };
+    AdlerFunction(Constants constants) : constants(constants) { };
 
-    static double D0(double s, double mu) {
+    double D0(double s, double mu) {
         double result = 0.;
-        double factor = nc / 12. / std::pow(pi, 2);
-        for(int n=0; n<=order; n++) {
+        double factor = constants.nc / 12. / std::pow(constants.pi(), 2);
+        for(int n=0; n<=constants.order; n++) {
             for(int k=1; k<=n+1; k++) {
-                std::cout << "n:k=>" << n << ":" << k << " c(n,k)=" << c(n,k) << " l(s,mu)^{k-1}=" << std::pow(l(s,mu), k-1) << std::endl;
-                result += std::pow(runAlpha(mu), n) * k * c(n,k) * std::pow(l(s, mu), k-1);
+//              std::cout << "n:k=>" << n << ":" << k << " c(n,k)=" << c(n,k) << " l(s,mu)^{k-1}=" << std::pow(l(s,mu), k-1) << std::endl;
+                result += std::pow(runAlpha(mu), n) * k * constants.c(n,k) * std::pow(l(s, mu), k-1);
             }
         }
         return factor*result;
@@ -29,6 +29,9 @@ public:
     static double l(double s, double mu) {
         return log(-s / std::pow(mu, 2));
     }
+
+private:
+    Constants constants;
 };
 
 

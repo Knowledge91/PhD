@@ -910,7 +910,6 @@ program/CMakeFiles/program.dir/AdlerFunction.cpp.o
  /Users/Knowledge/Developer/PhD/TauFitter/program/AdlerFunction.cpp
  /Users/Knowledge/Developer/PhD/TauFitter/program/AdlerFunction.h
  /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.h
- /Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.h
  /Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.h
 program/CMakeFiles/program.dir/Constants.cpp.o
  /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.cpp
@@ -1825,6 +1824,5 @@ program/CMakeFiles/program.dir/RunAlpha.cpp.o
  ../frameworks/boost_1_64_0/boost/utility/swap.hpp
  ../frameworks/boost_1_64_0/boost/version.hpp
  /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.h
- /Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.h
  /Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.cpp
  /Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.h

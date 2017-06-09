@@ -379,10 +379,10 @@
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/ConstantsFixture.cpp">
 			<Option target="runBasicTests"/>
 		</Unit>
-		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/numericalMethods_check.cpp">
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/RunAlphaFixture.cpp">
 			<Option target="runBasicTests"/>
 		</Unit>
-		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/runAlpha_check.cpp">
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/numericalMethods_check.cpp">
 			<Option target="runBasicTests"/>
 		</Unit>
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0/src/gtest-all.cc">

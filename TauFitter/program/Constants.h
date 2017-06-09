@@ -10,6 +10,8 @@
 
 class Constants {
 public:
+    Constants(int nc, int nf, int order) : nc(nc), nf(nf), order(order) {};
+
     static double zetaFunction(int i) {
         switch(i) {
             case 3: return 1.202056903159594;
@@ -20,7 +22,7 @@ public:
         return 0;
     }
 
-    static double beta(int i) {
+    double beta(int i) {
         switch(i) {
             case 1: return 11./2. - nf/3.;
             case 2: return 51./4. - 19./12.*nf;
@@ -49,7 +51,7 @@ public:
         return betaFunction;
     }
 
-    static double c(int n, int k) {
+    double c(int n, int k) {
         switch(n) {
             case 0:
                 switch(k) {
@@ -103,14 +105,15 @@ public:
     }
 
 
-    constexpr static const double pi = 3.141592653589793;
-    static const int nf = 3;
-    static const int nc = 3;
-    static const int order = 4;
-    constexpr static const double lamba = 0.332;
-    constexpr static const double mz = 91.1876;
-    constexpr static const double alphaMz = 0.1181;
-    constexpr static const double numPrecision = 10E-13;
+    int nc;
+    int nf;
+    int order;
+    static double pi() {
+        return 3.141592653589793;
+    }
+    constexpr static double lamba = 0.332;
+    static double mz() { return 91.1876; }
+    static double alphaMz() { return 0.1181; }
 };
 
 

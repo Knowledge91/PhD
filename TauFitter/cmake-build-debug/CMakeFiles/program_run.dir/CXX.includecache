@@ -9596,21 +9596,15 @@ RunAlpha.h
 cmath
 -
 
-../program/NumericalMethods.h
-cmath
--
-
 ../program/RunAlpha.h
 iostream
 -
 cmath
 -
-Constants.h
-../program/Constants.h
-NumericalMethods.h
-../program/NumericalMethods.h
 boost/math/tools/roots.hpp
 -
+Constants.h
+../program/Constants.h
 
 /Users/Knowledge/Developer/PhD/TauFitter/main.cpp
 iostream

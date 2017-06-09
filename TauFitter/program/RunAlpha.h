@@ -7,11 +7,10 @@
 
 #include <iostream>
 #include <cmath>
-#include "Constants.h"
-#include "NumericalMethods.h"
 #include <boost/math/tools/roots.hpp>
+#include "Constants.h"
 
-class RunAlpha: public Constants {
+class RunAlpha {
 public:
     /*
      * Method: runAlpha
@@ -20,9 +19,9 @@ public:
      * Solves and return alpha_s iteratively
      */
      static double runAlpha(double mu) {
-        double approximatedAs = getApproximatedAlpha(mu)/Constants::pi;
+        double approximatedAs = getApproximatedAlpha(mu)/Constants::pi();
         Beta_functor_deriv beta_functor_deriv = Beta_functor_deriv(mu);
-        return Constants::pi * boost::math::tools::newton_raphson_iterate(beta_functor_deriv, approximatedAs, approximatedAs-10, approximatedAs+10,20);
+        return Constants::pi() * boost::math::tools::newton_raphson_iterate(beta_functor_deriv, approximatedAs, approximatedAs-10, approximatedAs+10,20);
     }
 
 
@@ -43,11 +42,11 @@ public:
     }
 
 private:
-    struct Beta_functor_deriv: Constants {
+    struct Beta_functor_deriv {
     public:
        Beta_functor_deriv(double mu) : mu(mu) {}
         std::pair<double, double> operator()(double const& x) {
-            double fx = betaIntegral(alphaMz/pi, x, mz, mu);
+            double fx = betaIntegral(Constants::alphaMz()/Constants::pi(), x, Constants::mz(), mu);
             double dx = betaDerivative(x);
 //            std::cout << "fx : " << fx << " dx : " << dx << std::endl;
             return std::make_pair(fx, dx);
