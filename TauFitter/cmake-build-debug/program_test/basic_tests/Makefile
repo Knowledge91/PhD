@@ -169,32 +169,32 @@ runBasicTests/fast:
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/build
 .PHONY : runBasicTests/fast
 
-AdlerFunction_check.cpp.o: AdlerFunction_check.cpp.cpp.o
+AdlerFunctionFixture.o: AdlerFunctionFixture.cpp.o
 
-.PHONY : AdlerFunction_check.cpp.o
+.PHONY : AdlerFunctionFixture.o
 
 # target to build an object file
-AdlerFunction_check.cpp.cpp.o:
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o
-.PHONY : AdlerFunction_check.cpp.cpp.o
+AdlerFunctionFixture.cpp.o:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o
+.PHONY : AdlerFunctionFixture.cpp.o
 
-AdlerFunction_check.cpp.i: AdlerFunction_check.cpp.cpp.i
+AdlerFunctionFixture.i: AdlerFunctionFixture.cpp.i
 
-.PHONY : AdlerFunction_check.cpp.i
+.PHONY : AdlerFunctionFixture.i
 
 # target to preprocess a source file
-AdlerFunction_check.cpp.cpp.i:
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.i
-.PHONY : AdlerFunction_check.cpp.cpp.i
+AdlerFunctionFixture.cpp.i:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.i
+.PHONY : AdlerFunctionFixture.cpp.i
 
-AdlerFunction_check.cpp.s: AdlerFunction_check.cpp.cpp.s
+AdlerFunctionFixture.s: AdlerFunctionFixture.cpp.s
 
-.PHONY : AdlerFunction_check.cpp.s
+.PHONY : AdlerFunctionFixture.s
 
 # target to generate assembly for a file
-AdlerFunction_check.cpp.cpp.s:
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.s
-.PHONY : AdlerFunction_check.cpp.cpp.s
+AdlerFunctionFixture.cpp.s:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.s
+.PHONY : AdlerFunctionFixture.cpp.s
 
 ConstantsFixture.o: ConstantsFixture.cpp.o
 
@@ -290,9 +290,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... runBasicTests"
-	@echo "... AdlerFunction_check.cpp.o"
-	@echo "... AdlerFunction_check.cpp.i"
-	@echo "... AdlerFunction_check.cpp.s"
+	@echo "... AdlerFunctionFixture.o"
+	@echo "... AdlerFunctionFixture.i"
+	@echo "... AdlerFunctionFixture.s"
 	@echo "... ConstantsFixture.o"
 	@echo "... ConstantsFixture.i"
 	@echo "... ConstantsFixture.s"

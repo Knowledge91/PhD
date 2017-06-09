@@ -8,7 +8,6 @@
 
 class ConstantsFixture : public ::testing::Test {
 protected:
-    Constants constants = Constants(3);
 };
 
 TEST_F(ConstantsFixture, zetaFunction) {
@@ -26,21 +25,31 @@ TEST_F(ConstantsFixture, betaFunction) {
 }
 
 TEST_F(ConstantsFixture, adlerCoefficients) {
+    EXPECT_NEAR(Constants::c(0,0), -5./3., 1e-15);
+    EXPECT_NEAR(Constants::c(0,1), 1., 1e-15);
+
+    EXPECT_NEAR(Constants::c(1,1), 1., 1e-15);
+    EXPECT_NEAR(Constants::c(1,2), 0., 1e-15);
+
     EXPECT_NEAR(Constants::c(2,1), 1.63982120489698, 1e-14);
     EXPECT_NEAR(Constants::c(2,2), -1.125, 1e-15);
+    EXPECT_NEAR(Constants::c(2,3), 0, 1e-15);
 
     EXPECT_NEAR(Constants::c(3,1), 6.37101448310094, 1e-13);
     EXPECT_NEAR(Constants::c(3,2), -5.68959771101822, 1e-14);
     EXPECT_NEAR(Constants::c(3,3), 1.6875, 1e-15);
+    EXPECT_NEAR(Constants::c(3,4), 0., 1e-15);
 
     EXPECT_NEAR(Constants::c(4,1), 49.07570000294799, 1e-12);
     EXPECT_NEAR(Constants::c(4,2), -33.0914066167203, 1e-12);
     EXPECT_NEAR(Constants::c(4,3), 15.8015948497910, 1e-14);
     EXPECT_NEAR(Constants::c(4,4), -2.84765625, 1e-14);
+    EXPECT_NEAR(Constants::c(4,5), 0, 1e-15);
+
+
     EXPECT_NEAR(Constants::c(5,2), -299.177187205152, 1e-11);
     EXPECT_NEAR(Constants::c(5,3), 129.577532569234, 1e-12);
     EXPECT_NEAR(Constants::c(5,4), -40.6160884120297, 1e-13);
     EXPECT_NEAR(Constants::c(5,5), 5.12578125, 1e-15);
-
-
+    EXPECT_NEAR(Constants::c(5,6), 0, 1e-15);
 }

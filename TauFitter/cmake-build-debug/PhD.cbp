@@ -373,7 +373,7 @@
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.h">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/AdlerFunction_check.cpp.cpp">
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/AdlerFunctionFixture.cpp">
 			<Option target="runBasicTests"/>
 		</Unit>
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/ConstantsFixture.cpp">

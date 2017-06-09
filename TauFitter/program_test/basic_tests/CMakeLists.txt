@@ -1,6 +1,6 @@
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
-set(SOURCE_FILES ConstantsFixture.cpp runAlpha_check.cpp numericalMethods_check.cpp AdlerFunction_check.cpp.cpp)
+set(SOURCE_FILES ConstantsFixture.cpp runAlpha_check.cpp numericalMethods_check.cpp AdlerFunctionFixture.cpp)
 
 add_executable(runBasicTests ${SOURCE_FILES})
 

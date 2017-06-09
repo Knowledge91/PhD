@@ -129,28 +129,28 @@ program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp
 program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o.provides.build: program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o
 
 
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o: program_test/basic_tests/CMakeFiles/runBasicTests.dir/flags.make
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o: ../program_test/basic_tests/AdlerFunction_check.cpp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/AdlerFunction_check.cpp.cpp
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o: program_test/basic_tests/CMakeFiles/runBasicTests.dir/flags.make
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o: ../program_test/basic_tests/AdlerFunctionFixture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/AdlerFunctionFixture.cpp
 
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.i"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/AdlerFunction_check.cpp.cpp > CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.i
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.i"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/AdlerFunctionFixture.cpp > CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.i
 
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.s"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/AdlerFunction_check.cpp.cpp -o CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.s
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.s"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/AdlerFunctionFixture.cpp -o CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.s
 
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o.requires:
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o.requires:
 
-.PHONY : program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o.requires
+.PHONY : program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o.requires
 
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o.provides: program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o.requires
-	$(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o.provides.build
-.PHONY : program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o.provides
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o.provides: program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o.requires
+	$(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o.provides.build
+.PHONY : program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o.provides
 
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o.provides.build: program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o.provides.build: program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o
 
 
 # Object files for target runBasicTests
@@ -158,7 +158,7 @@ runBasicTests_OBJECTS = \
 "CMakeFiles/runBasicTests.dir/ConstantsFixture.cpp.o" \
 "CMakeFiles/runBasicTests.dir/runAlpha_check.cpp.o" \
 "CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o" \
-"CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o"
+"CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o"
 
 # External object files for target runBasicTests
 runBasicTests_EXTERNAL_OBJECTS =
@@ -166,7 +166,7 @@ runBasicTests_EXTERNAL_OBJECTS =
 program_test/basic_tests/runBasicTests: program_test/basic_tests/CMakeFiles/runBasicTests.dir/ConstantsFixture.cpp.o
 program_test/basic_tests/runBasicTests: program_test/basic_tests/CMakeFiles/runBasicTests.dir/runAlpha_check.cpp.o
 program_test/basic_tests/runBasicTests: program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o
-program_test/basic_tests/runBasicTests: program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o
+program_test/basic_tests/runBasicTests: program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o
 program_test/basic_tests/runBasicTests: program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make
 program_test/basic_tests/runBasicTests: program_test/lib/gtest-1.7.0/libgtest.a
 program_test/basic_tests/runBasicTests: program_test/lib/gtest-1.7.0/libgtest_main.a
@@ -184,7 +184,7 @@ program_test/basic_tests/CMakeFiles/runBasicTests.dir/build: program_test/basic_
 program_test/basic_tests/CMakeFiles/runBasicTests.dir/requires: program_test/basic_tests/CMakeFiles/runBasicTests.dir/ConstantsFixture.cpp.o.requires
 program_test/basic_tests/CMakeFiles/runBasicTests.dir/requires: program_test/basic_tests/CMakeFiles/runBasicTests.dir/runAlpha_check.cpp.o.requires
 program_test/basic_tests/CMakeFiles/runBasicTests.dir/requires: program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o.requires
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/requires: program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunction_check.cpp.cpp.o.requires
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/requires: program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o.requires
 
 .PHONY : program_test/basic_tests/CMakeFiles/runBasicTests.dir/requires
 

@@ -7,31 +7,28 @@
 
 
 #include <cmath>
-#include "Constants.h"
 #include "RunAlpha.h"
 
 class AdlerFunction: public RunAlpha {
-public:
-    AdlerFunction() : nc(3), order(1) { };
 
-    double D0(double s, double mu) {
-        double result = nc / 12. / pi;
+public:
+    AdlerFunction() { };
+
+    static double D0(double s, double mu) {
+        double result = 0.;
+        double factor = nc / 12. / std::pow(pi, 2);
         for(int n=0; n<=order; n++) {
             for(int k=1; k<=n+1; k++) {
+                std::cout << "n:k=>" << n << ":" << k << " c(n,k)=" << c(n,k) << " l(s,mu)^{k-1}=" << std::pow(l(s,mu), k-1) << std::endl;
                 result += std::pow(runAlpha(mu), n) * k * c(n,k) * std::pow(l(s, mu), k-1);
             }
         }
-        return result;
+        return factor*result;
     }
 
-    double l(double s, double mu) {
+    static double l(double s, double mu) {
         return log(-s / std::pow(mu, 2));
     }
-
-
-
-    int nc;
-    int order;
 };
 
 

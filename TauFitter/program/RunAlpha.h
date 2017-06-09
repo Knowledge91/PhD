@@ -14,20 +14,12 @@
 class RunAlpha: public Constants {
 public:
     /*
-     * Constructor: RunAlpha
-     * Usage: RunAlpha()
-     * -------------------------
-     * Set /alpha_{mz} and /mu_{mz} from PDG 2016 p. 29, Gauge & Higgs-Boson summary table
-     */
-    //RunAlpha()  {}
-
-    /*
      * Method: runAlpha
      * Usage: RunAlpha::runAlpha(double mu)
      * -------------------------
      * Solves and return alpha_s iteratively
      */
-     double runAlpha(double mu) {
+     static double runAlpha(double mu) {
         double approximatedAs = getApproximatedAlpha(mu)/Constants::pi;
         Beta_functor_deriv beta_functor_deriv = Beta_functor_deriv(mu);
         return Constants::pi * boost::math::tools::newton_raphson_iterate(beta_functor_deriv, approximatedAs, approximatedAs-10, approximatedAs+10,20);
@@ -41,7 +33,7 @@ public:
      * Get an approximated value for \alpha_s for nf=3 (\Lambda = 0.332),
      * forumla (and \Lambda) taken from PDG p.132 (p.146)
      */
-    double getApproximatedAlpha(double mu) {
+    static double getApproximatedAlpha(double mu) {
         return (16.71314886448282 + log(std::pow(mu,2))*(20.731909992671614
                 + log(std::pow(mu,2)) *(9.23729030880304 + 1.3962634015954634*log(std::pow(mu,2))))
                 + (-8.83285552360219 + (-5.7374135345463095 - 1.103220465458144*log(std::pow(mu,2)))*log(std::pow(mu,2)))

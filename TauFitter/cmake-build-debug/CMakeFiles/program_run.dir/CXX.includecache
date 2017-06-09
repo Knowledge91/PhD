@@ -9586,6 +9586,12 @@ boost/core/swap.hpp
 
 ../frameworks/boost_1_64_0/boost/version.hpp
 
+../program/AdlerFunction.h
+cmath
+-
+RunAlpha.h
+../program/RunAlpha.h
+
 ../program/Constants.h
 cmath
 -
@@ -9611,8 +9617,8 @@ iostream
 -
 program/Constants.h
 /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.h
-RunAlpha.h
-/Users/Knowledge/Developer/PhD/TauFitter/RunAlpha.h
+AdlerFunction.h
+/Users/Knowledge/Developer/PhD/TauFitter/AdlerFunction.h
 
 /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.h
 cmath

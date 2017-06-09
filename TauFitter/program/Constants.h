@@ -10,12 +10,6 @@
 
 class Constants {
 public:
-    // initialize Flavour number
-    Constants() {}
-    Constants(int nf) {
-        this->nf = nf;
-    }
-
     static double zetaFunction(int i) {
         switch(i) {
             case 3: return 1.202056903159594;
@@ -23,6 +17,7 @@ public:
             case 5: return 1.036927755143370;
             case 7: return 1.008349277381923;
         }
+        return 0;
     }
 
     static double beta(int i) {
@@ -43,6 +38,7 @@ public:
                            + 1618./27.*zetaFunction(4) + 460./9.*zetaFunction(5))
                            + std::pow(nf, 4)*(1205./2916. - 152./81.*zetaFunction(3)));
         }
+        return 0;
     }
 
     double betaFunktion(double a) {
@@ -56,18 +52,22 @@ public:
     static double c(int n, int k) {
         switch(n) {
             case 0:
-                switch(0) {
+                switch(k) {
                     case 0: return - 5./3.;
                     case 1: return 1.;
+                    default:
+                        return 0;
                 }
             case 1:
                 switch(k) {
                     case 1: return 1.;
+                    case 2: return 0.;
                 }
             case 2:
                 switch(k) {
                     case 1: return 365./24. - 11*zetaFunction(3) - (11./12. - 2./3. * zetaFunction(3))*nf;
                     case 2: return - 1./4.*beta(1)*c(1,1);
+                    case 3: return 0.;
                 }
             case 3:
                 switch(k) {
@@ -76,6 +76,8 @@ public:
                                        + (151./162. - 19./27.*zetaFunction(3))*std::pow(nf, 2);
                     case 2: return 1./4.*(-beta(2)*c(1,1) - 2*beta(1)*c(2,1));
                     case 3: return 1./12.*std::pow(beta(1), 2)*c(1,1);
+                    default:
+                        return 0.;
                 }
             case 4: switch(k) {
                     case 1: return 78631453./20736 - 1704247./432.*zetaFunction(3) + 4185./8.*std::pow(zetaFunction(3), 2)
@@ -83,6 +85,8 @@ public:
                     case 2: return 1./4.*(-beta(3)*c(1,1)-2*beta(2)*c(2,1)-3*beta(1)*c(3,1));
                     case 3: return 1./24.*(6.*c(2,1)*std::pow(beta(1), 2) + 5*beta(2)*beta(1)*c(1,1));
                     case 4: return - 1./32.*std::pow(beta(1), 3)*c(1,1);
+                    default:
+                        return 0.;
                 }
             case 5: switch(k) {
                     case 2: return 1./4.*(-beta(4)*c(1,1) - 2*beta(3)*c(2,1) - 3*beta(2)*c(3,1) - 4*beta(1)*c(4,1));
@@ -90,18 +94,23 @@ public:
                                            + 14*beta(2)*beta(1)*c(2,1) + 3*std::pow(beta(2), 2)*c(1,1));
                     case 4: return 1./96.*(-12.*std::pow(beta(1), 3)*c(2,1) - 13.*beta(2)*std::pow(beta(1),2)*c(1,1));
                     case 5: return 1./80.*std::pow(beta(1), 4)*c(1,1);
+                    default:
+                        return 0.;
                 }
+            default:
+                return 0;
         }
     }
 
 
-    inline static double pi = 3.141592653589793;
-    inline static int nf = 3;
-    int nc = 3;
-    inline static double lamba = 0.332;
-    double mz = 91.1876;
-    double alphaMz = 0.1181;
-    inline static double numPrecision = 10E-13;
+    constexpr static const double pi = 3.141592653589793;
+    static const int nf = 3;
+    static const int nc = 3;
+    static const int order = 4;
+    constexpr static const double lamba = 0.332;
+    constexpr static const double mz = 91.1876;
+    constexpr static const double alphaMz = 0.1181;
+    constexpr static const double numPrecision = 10E-13;
 };
 
 

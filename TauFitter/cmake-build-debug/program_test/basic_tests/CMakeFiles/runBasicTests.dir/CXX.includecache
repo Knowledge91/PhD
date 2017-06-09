@@ -9586,6 +9586,12 @@ boost/core/swap.hpp
 
 ../frameworks/boost_1_64_0/boost/version.hpp
 
+../program/AdlerFunction.h
+cmath
+-
+RunAlpha.h
+../program/RunAlpha.h
+
 ../program/Constants.h
 cmath
 -
@@ -9878,7 +9884,11 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/AdlerFunction_check.cpp.cpp
+/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/AdlerFunctionFixture.cpp
+gtest/gtest.h
+/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/gtest/gtest.h
+AdlerFunction.h
+/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/AdlerFunction.h
 
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/ConstantsFixture.cpp
 gtest/gtest.h
