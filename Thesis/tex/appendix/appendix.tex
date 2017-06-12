@@ -132,18 +132,22 @@ with $C_f = (N_c^2 - 1)/2N_c$.
 \subsection{Adler function}
 \begin{equation}
 	\begin{split}
-		c_{11} &= 1, \quad c_{21} = \frac{365}{24} - 11 \zeta_3 - \left(\frac{11}{12} - \frac{2}{3}\zeta(3) \right) N_f = 1.640, \\
-		c_{31} &= \frac{87029}{288} - \frac{1103}{4} \zeta_3 + \frac{275}{6} \zeta_5 \\
+		c_{1,1} &= 1, \quad c_{2,1} = \frac{365}{24} - 11 \zeta_3 - \left(\frac{11}{12} - \frac{2}{3}\zeta(3) \right) N_f = 1.640, \\
+		c_{3,1} &= \frac{87029}{288} - \frac{1103}{4} \zeta_3 + \frac{275}{6} \zeta_5 \\
 		& - \left(\frac{7847}{216} - \frac{262}{9} \zeta_3 + \frac{25}{9}\zeta_5 \right) N_f + \left( \frac{151}{162} - \frac{19}{27} \zeta_3 \right) N_f^2 = 6.371, \\
-		c_{41} &= \frac{78631453}{20736} - \frac{1704247}{432} \zeta_3 + \frac{4185}{8} \zeta_3^2 + \frac{34165}{96} \zeta_5 - \frac{1995}{16} \zeta_7 = 49.076
+		c_{4,1} &= \frac{78631453}{20736} - \frac{1704247}{432} \zeta_3 + \frac{4185}{8} \zeta_3^2 + \frac{34165}{96} \zeta_5 - \frac{1995}{16} \zeta_7 = 49.076
 	\end{split}
 \end{equation}
 from \cite{Jamin2006}
 \begin{equation}
 	\begin{split}
-		c_{23} &= 0, \quad c_{22} = \frac{\beta_1 c_{11}}{4}, \\
-		c_{34} &= 0, \quad c_{33} = \frac{\beta_1^2}{12} c_{11}, \quad c_{32} = -\frac{1}{4}(\beta_2 c_{11} +  2 \beta_1 c_{21} ), \\
-		c_{42} &= -\frac{1}{4} (\beta c_{11} + 2 \beta_2 c_{21} + 3 \beta_1 c_{31}).
+		c_{2,2} &= \frac{\beta_1 c_{1,1}}{4}, \quad c_{2,3} = 0 \\
+		c_{3,2} &= -\frac{1}{4}(\beta_2 \quad c_{33} = \frac{\beta_1^2}{12} c_{1,1}, c_{11} +  2 \beta_1 c_{2,1} ), \quad c_{3,4} = 0 \\
+		c_{4,2} &= -\frac{1}{4} (\beta c_{11} + 2 \beta_2 c_{21} + 3 \beta_1 c_{31}), \\
+		c_{4,3} &= \frac{1}{24}(6 c_{2,1} \beta_1^2 + 5 \beta_2 \beta_1 c_{1,1}), c_{4,4} = - \frac{1}{32} \beta_1^3 c_{1,1}, \\
+		c_{5,2} &= \frac{1}{4}(-\beta_4 c_{1,1} - 2\beta_3 c_{2,1} - 3 \beta_2 c_{3,1} - 4 \beta_1 c_{4,1}), \\
+		c_{5,3} &= \frac{1}{24} ( 12 c_{3,1} \beta_1^2 + 6 \beta_1 \beta_3 c_{1,1} + 14 \beta_2 \beta_1 c_{2,1} + 3 \beta_2^2 c_{1,1}), \\
+		c_{5,4} &= \frac{1}{96} (-12 \beta_1^3 c_{2,1} - 13 \beta_2 \beta_1^2 c_{1,1}), c_{5,5} = \frac{1}{80} \beta_1^4 c_{1,1}.
 	\end{split}
 \end{equation}
 

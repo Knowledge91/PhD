@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {B.2}$\gamma $-function}{16}{subsection.B.2}
 \contentsline {subsection}{\numberline {B.3}Adler function}{16}{subsection.B.3}
 \contentsline {section}{\numberline {C}Numerical Analysis}{16}{appendix.C}
-\contentsline {subsection}{\numberline {C.1}Finding Roots: Newton-Raphson Method}{16}{subsection.C.1}
+\contentsline {subsection}{\numberline {C.1}Finding Roots: Newton-Raphson Method}{17}{subsection.C.1}
 \contentsline {subsection}{\numberline {C.2}Newton-Cotes}{18}{subsection.C.2}
 \contentsline {subsection}{\numberline {C.3}Gauss Quadrature}{18}{subsection.C.3}
 \contentsline {subsection}{\numberline {C.4}Runge-Kutta Methods (Ordinary Differential Equations)}{18}{subsection.C.4}

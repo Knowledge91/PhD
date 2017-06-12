@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.7.12)  10 MAY 2017 14:08
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.7.12)  12 JUN 2017 08:30
  restricted system commands enabled.
  file:line:error style messages enabled.
 **thesis.tex
@@ -1557,12 +1557,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 122.
 
-[16]
+[16] [17]
 
-Package natbib Warning: Citation `Chapra2015' on page 17 undefined on input line
- 208.
+Package natbib Warning: Citation `Chapra2015' on page 18 undefined on input line
+ 212.
 
-[17] [18] [19]) [20] (./thesis.bbl)
+[18] [19]) [20] (./thesis.bbl)
 
 Package natbib Warning: There were undefined citations.
 
@@ -1589,9 +1589,9 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
 Here is how much of LuaTeX's memory you used:
  15239 strings out of 495118
  100000,383344 words of node,token memory allocated
- 17954 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2505 glue, 1 kern, 50 glue_spec, 1 write nodes
-   avail lists: 2:45,3:162,4:92,5:287,6:2192,7:553,8:131,9:748,10:16,11:155
+ 18374 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2565 glue, 1 kern, 50 glue_spec, 1 write nodes
+   avail lists: 2:45,3:162,4:92,5:287,6:2411,7:553,8:133,9:800,10:16,11:178
  18091 multiletter control sequences out of 65536+600000
  85 fonts using 3524555 bytes
  41i,23n,43p,864b,399s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1620,7 +1620,7 @@ msfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on thesis.pdf (22 pages, 444602 bytes).
+Output written on thesis.pdf (22 pages, 445944 bytes).
 
 PDF statistics: 535 PDF objects out of 1000 (max. 8388607)
  189 named destinations out of 1000 (max. 131072)
