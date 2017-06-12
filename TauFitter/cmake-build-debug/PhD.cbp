@@ -361,6 +361,12 @@
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/Constants.h">
 			<Option target="program"/>
 		</Unit>
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.h">
+			<Option target="program"/>
+		</Unit>
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.cpp">
 			<Option target="program"/>
 		</Unit>
@@ -379,10 +385,10 @@
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/ConstantsFixture.cpp">
 			<Option target="runBasicTests"/>
 		</Unit>
-		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/RunAlphaFixture.cpp">
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/NumericalMethodsFixture.cpp">
 			<Option target="runBasicTests"/>
 		</Unit>
-		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/numericalMethods_check.cpp">
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/RunAlphaFixture.cpp">
 			<Option target="runBasicTests"/>
 		</Unit>
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0/src/gtest-all.cc">

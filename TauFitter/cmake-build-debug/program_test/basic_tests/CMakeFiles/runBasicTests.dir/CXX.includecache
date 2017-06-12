@@ -9589,8 +9589,12 @@ boost/core/swap.hpp
 ../program/AdlerFunction.h
 cmath
 -
+complex
+-
 RunAlpha.h
 ../program/RunAlpha.h
+NumericalMethods.h
+../program/NumericalMethods.h
 
 ../program/Constants.h
 cmath
@@ -9598,6 +9602,8 @@ cmath
 
 ../program/NumericalMethods.h
 cmath
+-
+vector
 -
 
 ../program/RunAlpha.h
@@ -9894,19 +9900,23 @@ gtest/gtest.h
 Constants.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/Constants.h
 
-/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/RunAlphaFixture.cpp
+/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/NumericalMethodsFixture.cpp
+complex
+-
+cmath
+-
 gtest/gtest.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/gtest/gtest.h
+NumericalMethods.h
+/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/NumericalMethods.h
 RunAlpha.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/RunAlpha.h
 Constants.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/Constants.h
 
-/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/numericalMethods_check.cpp
+/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/RunAlphaFixture.cpp
 gtest/gtest.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/gtest/gtest.h
-NumericalMethods.h
-/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/NumericalMethods.h
 RunAlpha.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/RunAlpha.h
 Constants.h

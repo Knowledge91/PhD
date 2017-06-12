@@ -6,80 +6,60 @@
 #define PHD_NUMERICALMETHODS_H
 
 #include <cmath>
+#include <vector>
 
 
 class NumericalMethods {
 public:
-    // Finds Root to solve non-linear equation
-    // based on "Netwon-Raphson" method
-    static double NewtonRaphson(double xi, double (*func)(double), double (*Dfunc)(double));
+    // 3rd Numerical Recpies p.184 gauleg
+    // Gauss Quadratur
+    template <typename T>
+    static T integrate(T (*func)(T), T scale,  T a, T b) {
+        std::vector<T> x(10);
+        std::vector<T> w(10);
 
-    /*
-     * Numerical Recipes: p. 460, Chapter 9. Root Finding and Nonlinear Sets of Equations
-     * Using the Newton-Raphson method, return the root of a function known to lie in the interval Œx1;x2 .
-     * The root will be refined until its accuracy is known within  ̇xacc.
-     * funcd is a user- supplied struct that returns the function value as a functor and the first derivative
-     * of the function at the point x as the function df (see text).
-    */
-    template<class T>
-    double rtnewt(T &funcd, const double x1, const double x2, const double xacc) {
-        const int JMAX = 20;
-        double rtn = 0.5 * (x1 + x2);
-        for (int j = 0; j < JMAX; j++) {
-            double f = funcd(rtn);
-            double df = funcd.df(rtn);
-            double dx = f / df;
-            rtn -= dx;
-            if ((x1 - rtn) * (rtn - x2) < 0.0)
-                throw ("Jumped out of brackets in rtnewt");
-            if (std::abs(dx) < xacc) return rtn;
-        }
-        throw ("Maximum number of iterations exceeded in rtnewt");
-    }
+        T x1 = a;
+        T x2 = b;
 
-    template<class T>
-    double rtsafe(T &funcd, const double x1, const double x2, const double xacc) {
-        const int MAXIT = 10000;
-        double xh, xl;
-        double fl = funcd(x1);
-        double fh = funcd(x2);
-        if ((fl > 0.0 && fh > 0.0) || (fl < 0.0 && fh < 0.0)) throw ("Root must be bracketed in rtsafe");
-        if (fl == 0.0) return x1;
-        if (fh == 0.0) return x2;
-        if (fl < 0.0) {
-            xl = x1;
-            xh = x2;
-        } else {
-            xh = x1;
-            xl = x2;
+        // GAULEG weights and abciss nodes
+        // initialise integration
+        // find abscissas + weights
+        const double EPS = 1.0e-14;
+        T z1, z, xm, xl, pp, p3, p2, p1;
+        int n = x.size();
+        int m = (n+1.)/2.;
+        xm = 0.5*(x2+x1);
+        xl = 0.5*(x2-x1);
+        for (int i = 0; i < m; i++) {
+            z = cos(3.141592654*(i+0.75)/(n+0.5));
+            do {
+                p1 = 1.0;
+                p2 = 0.0;
+                for (int j = 0; j < n; j++) {
+                    p3 = p2;
+                    p2 = p1;
+                    T jComplx(j);
+                    p1 = ((2.0*j+1.0)*z*p2-jComplx*p3) / (jComplx+1.);
+                }
+                T nComplx(n);
+                pp = nComplx*(z*p1-p2)/(z*z-1.0);
+                z1 = z;
+                z = z1 - p1/pp;
+            } while (std::abs(z-z1) > EPS);
+            x[i] = xm - xl*z;
+            x[n-1-i] = xm+xl*z;
+            w[i] = 2.0*xl/((1.0-z*z)*pp*pp);
+            w[n-1-i] = w[i];
         }
-        double rts = 0.5 * (x1 + x2);
-        double dxold = std::abs(x2 - x1);
-        double dx = dxold;
-        double f = funcd(rts);
-        double df = funcd.df(rts);
-        for (int j = 0; j < MAXIT; j++) {
-            if ((((rts - xh) * df - f) * ((rts - xl) * df - f) > 0.0) || (std::abs(2.0 * f) > std::abs(dxold * df))) {
-                dxold = dx;
-                dx = 0.5 * (xh - xl);
-                rts = xl + dx;
-                if (xl == rts) return rts;
-            } else {
-                dxold = dx;
-                dx = f / df;
-                double temp = rts;
-                rts -= dx;
-                if (temp == rts) return rts;
-            }
-            if (std::abs(dx) < xacc) return rts;
-            double f = funcd(rts);
-            double df = funcd.df(rts);
-            if (f < 0.0)
-                xl = rts;
-            else
-                xh = rts;
-            throw ("Maximum number of iterations exceeded in rtsafe");
+
+
+        // qgauss Integrate
+        T s = 0;
+        for (int i = 0; i < x.size(); i++) {
+            s += w[i]*func(x[i]*scale);
         }
+
+        return s;
     }
 
 };

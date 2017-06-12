@@ -223,6 +223,33 @@ Constants.cpp.s:
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/Constants.cpp.s
 .PHONY : Constants.cpp.s
 
+IntegralMomentum.o: IntegralMomentum.cpp.o
+
+.PHONY : IntegralMomentum.o
+
+# target to build an object file
+IntegralMomentum.cpp.o:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/IntegralMomentum.cpp.o
+.PHONY : IntegralMomentum.cpp.o
+
+IntegralMomentum.i: IntegralMomentum.cpp.i
+
+.PHONY : IntegralMomentum.i
+
+# target to preprocess a source file
+IntegralMomentum.cpp.i:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/IntegralMomentum.cpp.i
+.PHONY : IntegralMomentum.cpp.i
+
+IntegralMomentum.s: IntegralMomentum.cpp.s
+
+.PHONY : IntegralMomentum.s
+
+# target to generate assembly for a file
+IntegralMomentum.cpp.s:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/IntegralMomentum.cpp.s
+.PHONY : IntegralMomentum.cpp.s
+
 NumericalMethods.o: NumericalMethods.cpp.o
 
 .PHONY : NumericalMethods.o
@@ -296,6 +323,9 @@ help:
 	@echo "... Constants.o"
 	@echo "... Constants.i"
 	@echo "... Constants.s"
+	@echo "... IntegralMomentum.o"
+	@echo "... IntegralMomentum.i"
+	@echo "... IntegralMomentum.s"
 	@echo "... NumericalMethods.o"
 	@echo "... NumericalMethods.i"
 	@echo "... NumericalMethods.s"

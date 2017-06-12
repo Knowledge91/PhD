@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/program.dir/RunAlpha.cpp.o"
   "CMakeFiles/program.dir/Constants.cpp.o"
   "CMakeFiles/program.dir/AdlerFunction.cpp.o"
+  "CMakeFiles/program.dir/IntegralMomentum.cpp.o"
   "libprogram.pdb"
   "libprogram.a"
 )

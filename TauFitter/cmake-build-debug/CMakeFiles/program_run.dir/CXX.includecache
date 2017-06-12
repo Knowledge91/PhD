@@ -9589,11 +9589,29 @@ boost/core/swap.hpp
 ../program/AdlerFunction.h
 cmath
 -
+complex
+-
 RunAlpha.h
 ../program/RunAlpha.h
+NumericalMethods.h
+../program/NumericalMethods.h
 
 ../program/Constants.h
 cmath
+-
+
+../program/IntegralMomentum.h
+complex
+-
+AdlerFunction.h
+-
+typeinfo
+-
+
+../program/NumericalMethods.h
+cmath
+-
+vector
 -
 
 ../program/RunAlpha.h
@@ -9609,12 +9627,8 @@ Constants.h
 /Users/Knowledge/Developer/PhD/TauFitter/main.cpp
 iostream
 -
-program/Constants.h
-/Users/Knowledge/Developer/PhD/TauFitter/program/Constants.h
-AdlerFunction.h
-/Users/Knowledge/Developer/PhD/TauFitter/AdlerFunction.h
-
-/Users/Knowledge/Developer/PhD/TauFitter/program/Constants.h
-cmath
--
+Constants.h
+/Users/Knowledge/Developer/PhD/TauFitter/Constants.h
+IntegralMomentum.h
+/Users/Knowledge/Developer/PhD/TauFitter/IntegralMomentum.h
 

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Knowledge/Developer/PhD/TauFitter/program/AdlerFunction.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/AdlerFunction.cpp.o"
   "/Users/Knowledge/Developer/PhD/TauFitter/program/Constants.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/Constants.cpp.o"
+  "/Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/IntegralMomentum.cpp.o"
   "/Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/NumericalMethods.cpp.o"
   "/Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/RunAlpha.cpp.o"
   )

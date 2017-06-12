@@ -909,6 +909,7 @@ CMakeFiles/program_run.dir/main.cpp.o
  ../frameworks/boost_1_64_0/boost/version.hpp
  ../program/AdlerFunction.h
  ../program/Constants.h
+ ../program/IntegralMomentum.h
+ ../program/NumericalMethods.h
  ../program/RunAlpha.h
  /Users/Knowledge/Developer/PhD/TauFitter/main.cpp
- /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.h

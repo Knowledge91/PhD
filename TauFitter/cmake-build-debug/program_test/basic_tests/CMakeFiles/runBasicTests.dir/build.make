@@ -105,28 +105,28 @@ program_test/basic_tests/CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.o.prov
 program_test/basic_tests/CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.o.provides.build: program_test/basic_tests/CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.o
 
 
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o: program_test/basic_tests/CMakeFiles/runBasicTests.dir/flags.make
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o: ../program_test/basic_tests/numericalMethods_check.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/numericalMethods_check.cpp
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o: program_test/basic_tests/CMakeFiles/runBasicTests.dir/flags.make
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o: ../program_test/basic_tests/NumericalMethodsFixture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/NumericalMethodsFixture.cpp
 
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.i"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/numericalMethods_check.cpp > CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.i
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.i"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/NumericalMethodsFixture.cpp > CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.i
 
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.s"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/numericalMethods_check.cpp -o CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.s
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.s"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/NumericalMethodsFixture.cpp -o CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.s
 
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o.requires:
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o.requires:
 
-.PHONY : program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o.requires
+.PHONY : program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o.requires
 
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o.provides: program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o.requires
-	$(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o.provides.build
-.PHONY : program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o.provides
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o.provides: program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o.requires
+	$(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o.provides.build
+.PHONY : program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o.provides
 
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o.provides.build: program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o.provides.build: program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o
 
 
 program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o: program_test/basic_tests/CMakeFiles/runBasicTests.dir/flags.make
@@ -157,7 +157,7 @@ program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o
 runBasicTests_OBJECTS = \
 "CMakeFiles/runBasicTests.dir/ConstantsFixture.cpp.o" \
 "CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.o" \
-"CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o" \
+"CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o" \
 "CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o"
 
 # External object files for target runBasicTests
@@ -165,7 +165,7 @@ runBasicTests_EXTERNAL_OBJECTS =
 
 program_test/basic_tests/runBasicTests: program_test/basic_tests/CMakeFiles/runBasicTests.dir/ConstantsFixture.cpp.o
 program_test/basic_tests/runBasicTests: program_test/basic_tests/CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.o
-program_test/basic_tests/runBasicTests: program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o
+program_test/basic_tests/runBasicTests: program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o
 program_test/basic_tests/runBasicTests: program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o
 program_test/basic_tests/runBasicTests: program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make
 program_test/basic_tests/runBasicTests: program_test/lib/gtest-1.7.0/libgtest.a
@@ -183,7 +183,7 @@ program_test/basic_tests/CMakeFiles/runBasicTests.dir/build: program_test/basic_
 
 program_test/basic_tests/CMakeFiles/runBasicTests.dir/requires: program_test/basic_tests/CMakeFiles/runBasicTests.dir/ConstantsFixture.cpp.o.requires
 program_test/basic_tests/CMakeFiles/runBasicTests.dir/requires: program_test/basic_tests/CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.o.requires
-program_test/basic_tests/CMakeFiles/runBasicTests.dir/requires: program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o.requires
+program_test/basic_tests/CMakeFiles/runBasicTests.dir/requires: program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o.requires
 program_test/basic_tests/CMakeFiles/runBasicTests.dir/requires: program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o.requires
 
 .PHONY : program_test/basic_tests/CMakeFiles/runBasicTests.dir/requires

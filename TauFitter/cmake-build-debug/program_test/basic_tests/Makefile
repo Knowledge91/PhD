@@ -223,6 +223,33 @@ ConstantsFixture.cpp.s:
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/ConstantsFixture.cpp.s
 .PHONY : ConstantsFixture.cpp.s
 
+NumericalMethodsFixture.o: NumericalMethodsFixture.cpp.o
+
+.PHONY : NumericalMethodsFixture.o
+
+# target to build an object file
+NumericalMethodsFixture.cpp.o:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o
+.PHONY : NumericalMethodsFixture.cpp.o
+
+NumericalMethodsFixture.i: NumericalMethodsFixture.cpp.i
+
+.PHONY : NumericalMethodsFixture.i
+
+# target to preprocess a source file
+NumericalMethodsFixture.cpp.i:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.i
+.PHONY : NumericalMethodsFixture.cpp.i
+
+NumericalMethodsFixture.s: NumericalMethodsFixture.cpp.s
+
+.PHONY : NumericalMethodsFixture.s
+
+# target to generate assembly for a file
+NumericalMethodsFixture.cpp.s:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.s
+.PHONY : NumericalMethodsFixture.cpp.s
+
 RunAlphaFixture.o: RunAlphaFixture.cpp.o
 
 .PHONY : RunAlphaFixture.o
@@ -250,33 +277,6 @@ RunAlphaFixture.cpp.s:
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.s
 .PHONY : RunAlphaFixture.cpp.s
 
-numericalMethods_check.o: numericalMethods_check.cpp.o
-
-.PHONY : numericalMethods_check.o
-
-# target to build an object file
-numericalMethods_check.cpp.o:
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.o
-.PHONY : numericalMethods_check.cpp.o
-
-numericalMethods_check.i: numericalMethods_check.cpp.i
-
-.PHONY : numericalMethods_check.i
-
-# target to preprocess a source file
-numericalMethods_check.cpp.i:
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.i
-.PHONY : numericalMethods_check.cpp.i
-
-numericalMethods_check.s: numericalMethods_check.cpp.s
-
-.PHONY : numericalMethods_check.s
-
-# target to generate assembly for a file
-numericalMethods_check.cpp.s:
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program_test/basic_tests/CMakeFiles/runBasicTests.dir/build.make program_test/basic_tests/CMakeFiles/runBasicTests.dir/numericalMethods_check.cpp.s
-.PHONY : numericalMethods_check.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,12 +296,12 @@ help:
 	@echo "... ConstantsFixture.o"
 	@echo "... ConstantsFixture.i"
 	@echo "... ConstantsFixture.s"
+	@echo "... NumericalMethodsFixture.o"
+	@echo "... NumericalMethodsFixture.i"
+	@echo "... NumericalMethodsFixture.s"
 	@echo "... RunAlphaFixture.o"
 	@echo "... RunAlphaFixture.i"
 	@echo "... RunAlphaFixture.s"
-	@echo "... numericalMethods_check.o"
-	@echo "... numericalMethods_check.i"
-	@echo "... numericalMethods_check.s"
 .PHONY : help
 
 
