@@ -60,15 +60,15 @@ include program/CMakeFiles/program.dir/flags.make
 program/CMakeFiles/program.dir/NumericalMethods.cpp.o: program/CMakeFiles/program.dir/flags.make
 program/CMakeFiles/program.dir/NumericalMethods.cpp.o: ../program/NumericalMethods.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object program/CMakeFiles/program.dir/NumericalMethods.cpp.o"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/NumericalMethods.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.cpp
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/NumericalMethods.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.cpp
 
 program/CMakeFiles/program.dir/NumericalMethods.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/NumericalMethods.cpp.i"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.cpp > CMakeFiles/program.dir/NumericalMethods.cpp.i
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.cpp > CMakeFiles/program.dir/NumericalMethods.cpp.i
 
 program/CMakeFiles/program.dir/NumericalMethods.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/NumericalMethods.cpp.s"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.cpp -o CMakeFiles/program.dir/NumericalMethods.cpp.s
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.cpp -o CMakeFiles/program.dir/NumericalMethods.cpp.s
 
 program/CMakeFiles/program.dir/NumericalMethods.cpp.o.requires:
 
@@ -84,15 +84,15 @@ program/CMakeFiles/program.dir/NumericalMethods.cpp.o.provides.build: program/CM
 program/CMakeFiles/program.dir/RunAlpha.cpp.o: program/CMakeFiles/program.dir/flags.make
 program/CMakeFiles/program.dir/RunAlpha.cpp.o: ../program/RunAlpha.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object program/CMakeFiles/program.dir/RunAlpha.cpp.o"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/RunAlpha.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.cpp
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/RunAlpha.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.cpp
 
 program/CMakeFiles/program.dir/RunAlpha.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/RunAlpha.cpp.i"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.cpp > CMakeFiles/program.dir/RunAlpha.cpp.i
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.cpp > CMakeFiles/program.dir/RunAlpha.cpp.i
 
 program/CMakeFiles/program.dir/RunAlpha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/RunAlpha.cpp.s"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.cpp -o CMakeFiles/program.dir/RunAlpha.cpp.s
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.cpp -o CMakeFiles/program.dir/RunAlpha.cpp.s
 
 program/CMakeFiles/program.dir/RunAlpha.cpp.o.requires:
 
@@ -108,15 +108,15 @@ program/CMakeFiles/program.dir/RunAlpha.cpp.o.provides.build: program/CMakeFiles
 program/CMakeFiles/program.dir/Constants.cpp.o: program/CMakeFiles/program.dir/flags.make
 program/CMakeFiles/program.dir/Constants.cpp.o: ../program/Constants.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object program/CMakeFiles/program.dir/Constants.cpp.o"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/Constants.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.cpp
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/Constants.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.cpp
 
 program/CMakeFiles/program.dir/Constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/Constants.cpp.i"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.cpp > CMakeFiles/program.dir/Constants.cpp.i
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.cpp > CMakeFiles/program.dir/Constants.cpp.i
 
 program/CMakeFiles/program.dir/Constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/Constants.cpp.s"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.cpp -o CMakeFiles/program.dir/Constants.cpp.s
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.cpp -o CMakeFiles/program.dir/Constants.cpp.s
 
 program/CMakeFiles/program.dir/Constants.cpp.o.requires:
 
@@ -132,15 +132,15 @@ program/CMakeFiles/program.dir/Constants.cpp.o.provides.build: program/CMakeFile
 program/CMakeFiles/program.dir/AdlerFunction.cpp.o: program/CMakeFiles/program.dir/flags.make
 program/CMakeFiles/program.dir/AdlerFunction.cpp.o: ../program/AdlerFunction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object program/CMakeFiles/program.dir/AdlerFunction.cpp.o"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/AdlerFunction.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/AdlerFunction.cpp
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/AdlerFunction.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/AdlerFunction.cpp
 
 program/CMakeFiles/program.dir/AdlerFunction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/AdlerFunction.cpp.i"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/AdlerFunction.cpp > CMakeFiles/program.dir/AdlerFunction.cpp.i
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/AdlerFunction.cpp > CMakeFiles/program.dir/AdlerFunction.cpp.i
 
 program/CMakeFiles/program.dir/AdlerFunction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/AdlerFunction.cpp.s"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/AdlerFunction.cpp -o CMakeFiles/program.dir/AdlerFunction.cpp.s
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/AdlerFunction.cpp -o CMakeFiles/program.dir/AdlerFunction.cpp.s
 
 program/CMakeFiles/program.dir/AdlerFunction.cpp.o.requires:
 
@@ -156,15 +156,15 @@ program/CMakeFiles/program.dir/AdlerFunction.cpp.o.provides.build: program/CMake
 program/CMakeFiles/program.dir/IntegralMomentum.cpp.o: program/CMakeFiles/program.dir/flags.make
 program/CMakeFiles/program.dir/IntegralMomentum.cpp.o: ../program/IntegralMomentum.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object program/CMakeFiles/program.dir/IntegralMomentum.cpp.o"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/IntegralMomentum.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/IntegralMomentum.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp
 
 program/CMakeFiles/program.dir/IntegralMomentum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/IntegralMomentum.cpp.i"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp > CMakeFiles/program.dir/IntegralMomentum.cpp.i
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp > CMakeFiles/program.dir/IntegralMomentum.cpp.i
 
 program/CMakeFiles/program.dir/IntegralMomentum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/IntegralMomentum.cpp.s"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp -o CMakeFiles/program.dir/IntegralMomentum.cpp.s
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp -o CMakeFiles/program.dir/IntegralMomentum.cpp.s
 
 program/CMakeFiles/program.dir/IntegralMomentum.cpp.o.requires:
 
@@ -177,13 +177,113 @@ program/CMakeFiles/program.dir/IntegralMomentum.cpp.o.provides: program/CMakeFil
 program/CMakeFiles/program.dir/IntegralMomentum.cpp.o.provides.build: program/CMakeFiles/program.dir/IntegralMomentum.cpp.o
 
 
+program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o: program/CMakeFiles/program.dir/flags.make
+program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o: ../program/experimentalData/ExperimentalData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/ExperimentalData.cpp
+
+program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.i"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/ExperimentalData.cpp > CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.i
+
+program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.s"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/ExperimentalData.cpp -o CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.s
+
+program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o.requires:
+
+.PHONY : program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o.requires
+
+program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o.provides: program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o.requires
+	$(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o.provides.build
+.PHONY : program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o.provides
+
+program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o.provides.build: program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o
+
+
+program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o: program/CMakeFiles/program.dir/flags.make
+program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o: ../program/experimentalData/aleph14_vpa.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building Fortran object program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/aleph14_vpa.f90 -o CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o
+
+program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.i"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/aleph14_vpa.f90 > CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.i
+
+program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.s"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/aleph14_vpa.f90 -o CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.s
+
+program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o.requires:
+
+.PHONY : program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o.requires
+
+program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o.provides: program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o.requires
+	$(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o.provides.build
+.PHONY : program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o.provides
+
+program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o.provides.build: program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o
+
+
+program/CMakeFiles/program.dir/experimentalData/num_const.f90.o: program/CMakeFiles/program.dir/flags.make
+program/CMakeFiles/program.dir/experimentalData/num_const.f90.o: ../program/experimentalData/num_const.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building Fortran object program/CMakeFiles/program.dir/experimentalData/num_const.f90.o"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/num_const.f90 -o CMakeFiles/program.dir/experimentalData/num_const.f90.o
+
+program/CMakeFiles/program.dir/experimentalData/num_const.f90.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/program.dir/experimentalData/num_const.f90.i"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/num_const.f90 > CMakeFiles/program.dir/experimentalData/num_const.f90.i
+
+program/CMakeFiles/program.dir/experimentalData/num_const.f90.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/program.dir/experimentalData/num_const.f90.s"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/num_const.f90 -o CMakeFiles/program.dir/experimentalData/num_const.f90.s
+
+program/CMakeFiles/program.dir/experimentalData/num_const.f90.o.requires:
+
+.PHONY : program/CMakeFiles/program.dir/experimentalData/num_const.f90.o.requires
+
+program/CMakeFiles/program.dir/experimentalData/num_const.f90.o.provides: program/CMakeFiles/program.dir/experimentalData/num_const.f90.o.requires
+	$(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/num_const.f90.o.provides.build
+.PHONY : program/CMakeFiles/program.dir/experimentalData/num_const.f90.o.provides
+
+program/CMakeFiles/program.dir/experimentalData/num_const.f90.o.provides.build: program/CMakeFiles/program.dir/experimentalData/num_const.f90.o
+
+
+program/CMakeFiles/program.dir/experimentalData/teubner.f.o: program/CMakeFiles/program.dir/flags.make
+program/CMakeFiles/program.dir/experimentalData/teubner.f.o: ../program/experimentalData/teubner.f
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building Fortran object program/CMakeFiles/program.dir/experimentalData/teubner.f.o"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/teubner.f -o CMakeFiles/program.dir/experimentalData/teubner.f.o
+
+program/CMakeFiles/program.dir/experimentalData/teubner.f.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/program.dir/experimentalData/teubner.f.i"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/teubner.f > CMakeFiles/program.dir/experimentalData/teubner.f.i
+
+program/CMakeFiles/program.dir/experimentalData/teubner.f.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/program.dir/experimentalData/teubner.f.s"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/gfortran  $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/teubner.f -o CMakeFiles/program.dir/experimentalData/teubner.f.s
+
+program/CMakeFiles/program.dir/experimentalData/teubner.f.o.requires:
+
+.PHONY : program/CMakeFiles/program.dir/experimentalData/teubner.f.o.requires
+
+program/CMakeFiles/program.dir/experimentalData/teubner.f.o.provides: program/CMakeFiles/program.dir/experimentalData/teubner.f.o.requires
+	$(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/teubner.f.o.provides.build
+.PHONY : program/CMakeFiles/program.dir/experimentalData/teubner.f.o.provides
+
+program/CMakeFiles/program.dir/experimentalData/teubner.f.o.provides.build: program/CMakeFiles/program.dir/experimentalData/teubner.f.o
+
+
 # Object files for target program
 program_OBJECTS = \
 "CMakeFiles/program.dir/NumericalMethods.cpp.o" \
 "CMakeFiles/program.dir/RunAlpha.cpp.o" \
 "CMakeFiles/program.dir/Constants.cpp.o" \
 "CMakeFiles/program.dir/AdlerFunction.cpp.o" \
-"CMakeFiles/program.dir/IntegralMomentum.cpp.o"
+"CMakeFiles/program.dir/IntegralMomentum.cpp.o" \
+"CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o" \
+"CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o" \
+"CMakeFiles/program.dir/experimentalData/num_const.f90.o" \
+"CMakeFiles/program.dir/experimentalData/teubner.f.o"
 
 # External object files for target program
 program_EXTERNAL_OBJECTS =
@@ -193,9 +293,13 @@ program/libprogram.a: program/CMakeFiles/program.dir/RunAlpha.cpp.o
 program/libprogram.a: program/CMakeFiles/program.dir/Constants.cpp.o
 program/libprogram.a: program/CMakeFiles/program.dir/AdlerFunction.cpp.o
 program/libprogram.a: program/CMakeFiles/program.dir/IntegralMomentum.cpp.o
+program/libprogram.a: program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o
+program/libprogram.a: program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o
+program/libprogram.a: program/CMakeFiles/program.dir/experimentalData/num_const.f90.o
+program/libprogram.a: program/CMakeFiles/program.dir/experimentalData/teubner.f.o
 program/libprogram.a: program/CMakeFiles/program.dir/build.make
 program/libprogram.a: program/CMakeFiles/program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libprogram.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libprogram.a"
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && $(CMAKE_COMMAND) -P CMakeFiles/program.dir/cmake_clean_target.cmake
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/program.dir/link.txt --verbose=$(VERBOSE)
 
@@ -209,6 +313,10 @@ program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/RunAlpha
 program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/Constants.cpp.o.requires
 program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/AdlerFunction.cpp.o.requires
 program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/IntegralMomentum.cpp.o.requires
+program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o.requires
+program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o.requires
+program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/experimentalData/num_const.f90.o.requires
+program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/experimentalData/teubner.f.o.requires
 
 .PHONY : program/CMakeFiles/program.dir/requires
 

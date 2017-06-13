@@ -5,7 +5,7 @@
 #ifndef PHD_CONSTANTS_H
 #define PHD_CONSTANTS_H
 
-
+#include <string>
 #include <cmath>
 
 class Constants {
@@ -114,6 +114,7 @@ public:
     constexpr static double lamba = 0.332;
     static double mz() { return 91.1876; }
     static double alphaMz() { return 0.1181; }
+    static std::string generatedPath() { return "/Users/Knowledge/Developer/PhD/TauFitter/generatedFiles/"; }
 };
 
 

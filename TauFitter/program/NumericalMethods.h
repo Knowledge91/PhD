@@ -13,8 +13,8 @@ class NumericalMethods {
 public:
     // 3rd Numerical Recpies p.184 gauleg
     // Gauss Quadratur
-    template <typename T>
-    static T integrate(T (*func)(T), T scale,  T a, T b) {
+    template <typename T, typename Func>
+    static T integrate(Func function, T scale,  T a, T b) {
         std::vector<T> x(10);
         std::vector<T> w(10);
 
@@ -56,7 +56,7 @@ public:
         // qgauss Integrate
         T s = 0;
         for (int i = 0; i < x.size(); i++) {
-            s += w[i]*func(x[i]*scale);
+            s += w[i]*function(x[i]*scale);
         }
 
         return s;

@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/NumericalMethodsFixture.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o"
   "/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/RunAlphaFixture.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

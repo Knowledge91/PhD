@@ -9597,6 +9597,8 @@ NumericalMethods.h
 ../program/NumericalMethods.h
 
 ../program/Constants.h
+string
+-
 cmath
 -
 
@@ -9624,6 +9626,14 @@ boost/math/tools/roots.hpp
 Constants.h
 ../program/Constants.h
 
+../program/experimentalData/ExperimentalData.h
+iostream
+-
+map
+-
+vector
+-
+
 /Users/Knowledge/Developer/PhD/TauFitter/main.cpp
 iostream
 -
@@ -9631,4 +9641,6 @@ Constants.h
 /Users/Knowledge/Developer/PhD/TauFitter/Constants.h
 IntegralMomentum.h
 /Users/Knowledge/Developer/PhD/TauFitter/IntegralMomentum.h
+experimentalData/ExperimentalData.h
+/Users/Knowledge/Developer/PhD/TauFitter/experimentalData/ExperimentalData.h
 

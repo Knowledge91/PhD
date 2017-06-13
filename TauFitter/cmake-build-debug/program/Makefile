@@ -304,6 +304,114 @@ RunAlpha.cpp.s:
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/RunAlpha.cpp.s
 .PHONY : RunAlpha.cpp.s
 
+experimentalData/ExperimentalData.o: experimentalData/ExperimentalData.cpp.o
+
+.PHONY : experimentalData/ExperimentalData.o
+
+# target to build an object file
+experimentalData/ExperimentalData.cpp.o:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o
+.PHONY : experimentalData/ExperimentalData.cpp.o
+
+experimentalData/ExperimentalData.i: experimentalData/ExperimentalData.cpp.i
+
+.PHONY : experimentalData/ExperimentalData.i
+
+# target to preprocess a source file
+experimentalData/ExperimentalData.cpp.i:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.i
+.PHONY : experimentalData/ExperimentalData.cpp.i
+
+experimentalData/ExperimentalData.s: experimentalData/ExperimentalData.cpp.s
+
+.PHONY : experimentalData/ExperimentalData.s
+
+# target to generate assembly for a file
+experimentalData/ExperimentalData.cpp.s:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.s
+.PHONY : experimentalData/ExperimentalData.cpp.s
+
+experimentalData/aleph14_vpa.o: experimentalData/aleph14_vpa.f90.o
+
+.PHONY : experimentalData/aleph14_vpa.o
+
+# target to build an object file
+experimentalData/aleph14_vpa.f90.o:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o
+.PHONY : experimentalData/aleph14_vpa.f90.o
+
+experimentalData/aleph14_vpa.i: experimentalData/aleph14_vpa.f90.i
+
+.PHONY : experimentalData/aleph14_vpa.i
+
+# target to preprocess a source file
+experimentalData/aleph14_vpa.f90.i:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.i
+.PHONY : experimentalData/aleph14_vpa.f90.i
+
+experimentalData/aleph14_vpa.s: experimentalData/aleph14_vpa.f90.s
+
+.PHONY : experimentalData/aleph14_vpa.s
+
+# target to generate assembly for a file
+experimentalData/aleph14_vpa.f90.s:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.s
+.PHONY : experimentalData/aleph14_vpa.f90.s
+
+experimentalData/num_const.o: experimentalData/num_const.f90.o
+
+.PHONY : experimentalData/num_const.o
+
+# target to build an object file
+experimentalData/num_const.f90.o:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/num_const.f90.o
+.PHONY : experimentalData/num_const.f90.o
+
+experimentalData/num_const.i: experimentalData/num_const.f90.i
+
+.PHONY : experimentalData/num_const.i
+
+# target to preprocess a source file
+experimentalData/num_const.f90.i:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/num_const.f90.i
+.PHONY : experimentalData/num_const.f90.i
+
+experimentalData/num_const.s: experimentalData/num_const.f90.s
+
+.PHONY : experimentalData/num_const.s
+
+# target to generate assembly for a file
+experimentalData/num_const.f90.s:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/num_const.f90.s
+.PHONY : experimentalData/num_const.f90.s
+
+experimentalData/teubner.o: experimentalData/teubner.f.o
+
+.PHONY : experimentalData/teubner.o
+
+# target to build an object file
+experimentalData/teubner.f.o:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/teubner.f.o
+.PHONY : experimentalData/teubner.f.o
+
+experimentalData/teubner.i: experimentalData/teubner.f.i
+
+.PHONY : experimentalData/teubner.i
+
+# target to preprocess a source file
+experimentalData/teubner.f.i:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/teubner.f.i
+.PHONY : experimentalData/teubner.f.i
+
+experimentalData/teubner.s: experimentalData/teubner.f.s
+
+.PHONY : experimentalData/teubner.s
+
+# target to generate assembly for a file
+experimentalData/teubner.f.s:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/experimentalData/teubner.f.s
+.PHONY : experimentalData/teubner.f.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -332,6 +440,18 @@ help:
 	@echo "... RunAlpha.o"
 	@echo "... RunAlpha.i"
 	@echo "... RunAlpha.s"
+	@echo "... experimentalData/ExperimentalData.o"
+	@echo "... experimentalData/ExperimentalData.i"
+	@echo "... experimentalData/ExperimentalData.s"
+	@echo "... experimentalData/aleph14_vpa.o"
+	@echo "... experimentalData/aleph14_vpa.i"
+	@echo "... experimentalData/aleph14_vpa.s"
+	@echo "... experimentalData/num_const.o"
+	@echo "... experimentalData/num_const.i"
+	@echo "... experimentalData/num_const.s"
+	@echo "... experimentalData/teubner.o"
+	@echo "... experimentalData/teubner.i"
+	@echo "... experimentalData/teubner.s"
 .PHONY : help
 
 

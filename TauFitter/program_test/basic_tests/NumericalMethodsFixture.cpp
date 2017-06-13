@@ -11,9 +11,6 @@
 
 using namespace std::complex_literals;
 
-std::complex<double> func2(std::complex<double> x) {
-    return 2.0*(1.-x);
-}
 
 class NumericalMethodsFixture : public ::testing::Test {
 public:

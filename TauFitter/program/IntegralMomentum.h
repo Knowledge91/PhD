@@ -16,18 +16,18 @@ public:
     IntegralMomentum(Constants constants) : constants(constants), adlerFunction(AdlerFunction(constants)) {};
 
     std::complex<double> contourIntegral(double s0) {
-        std::complex<double> scale, lowerLimit, upperLimit;
+        std::complex<double> scale, lowerLimit, upperLimit, ii;
         scale = 1.;
         lowerLimit = 0.;
-        upperLimit = Constants::pi();
+        upperLimit = 2*Constants::pi();
+        ii = 1.i;
 
 
-        auto preparedContourFunction = [&]() -> std::complex<double> {
-            std::complex<double> x;
-            return adlerFunction.D0(s0*exp(x), Constants::mz());
-        }();
-       return preparedContourFunction;
-//        return NumericalMethods::integrate(adlerFunction.D0, scale, lowerLimit, upperLimit);
+        auto preparedContourFunction = [&](std::complex<double> x) -> std::complex<double> {
+            return adlerFunction.D0(s0*exp(ii * x), Constants::mz());
+        };
+
+       return NumericalMethods::integrate(preparedContourFunction, scale, lowerLimit, upperLimit);
     }
 
 private:
