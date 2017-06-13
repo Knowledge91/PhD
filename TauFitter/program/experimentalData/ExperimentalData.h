@@ -8,6 +8,7 @@
 #include <iostream>
 #include <map>
 #include <vector>
+#include "Constants.h"
 
 class ExperimentalData {
 public:
@@ -23,12 +24,24 @@ public:
     double vectorPlusAxialvectorIntegralMomentum(double s0);
 
     /*
-     * Methods :
-     * Usage: exportDataPoints()
+     * Method : exportDataPoints()
+     * Usage: this->exportDataPoints()
      * -------------------------
      * Exports table of energy and smf2 value into data.dat file ( s | sfm2 ).
      */
     void exportDataPoints();
+
+    /*
+     * Method : plotDataPoints
+     * Usage: this->plotDataPoints()
+     * -------------------------
+     * Plots previously exported data points.
+     */
+    void plotDataPoints() {
+        std::string str = "gnuplot> load '"+Constants::programPath()+"/program/experimentalData/plot.gp'";
+        const char * c = str.c_str();
+        std::system(c);
+    }
 
 private:
     struct AlephData {

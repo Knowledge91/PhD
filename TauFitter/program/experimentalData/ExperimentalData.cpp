@@ -5,7 +5,6 @@
 #include <cmath>
 #include <fstream>
 #include "ExperimentalData.h"
-#include "Constants.h"
 
 
 extern"C" {

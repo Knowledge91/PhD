@@ -114,7 +114,8 @@ public:
     constexpr static double lamba = 0.332;
     static double mz() { return 91.1876; }
     static double alphaMz() { return 0.1181; }
-    static std::string generatedPath() { return "/Users/Knowledge/Developer/PhD/TauFitter/generatedFiles/"; }
+    static std::string programPath() { return "/Users/Knowledge/Developer/PhD/TauFitter/"; }
+    static std::string generatedPath() { return programPath()+"/generatedFiles"; }
 };
 
 
