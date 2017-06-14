@@ -12,6 +12,13 @@ Diogo Boito.
 \newblock {\em QCD phenomenology with $\tau$ and charm decays}.
 \newblock PhD thesis, Universitat Autònoma de Barcelona, September 2011.
 
+\bibitem{ALEPH2013}
+M.~Davier, A.~Höcker, B.~Malaescu, C.Z. Yuan, and Z.~Zhang.
+\newblock Update of the aleph non-strange spectral functions from hadronic
+  $\tau$ decays.
+\newblock {\em Eur. Phys. J. C}, 74, 2014.
+\newblock URL: \url{doi:10.1140/epjc/s10052-014-2803-9}.
+
 \bibitem{Jamin2006}
 M.~Jamin.
 \newblock Qcd and renormalisation group methods.
@@ -36,10 +43,10 @@ Felix Schwab.
   $\tau$-decays.
 \newblock Master's thesis, University of Heidelberg, 2002.
 
-\bibitem{Chapra2010}
+\bibitem{Chapra2015}
 Raymond P.~Canale Steven C.~Chapra.
 \newblock {\em Numerical Methods for Engineers}.
-\newblock McGraw Hill, 2010.
+\newblock McGraw Hill, 2015.
 
 \bibitem{Tsai1971}
 Y.~Tsai.

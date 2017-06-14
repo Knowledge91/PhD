@@ -1,2 +1,2 @@
 set yrange [0:5]
-plot "../generatedFiles/data.dat" using 1:2
+plot "../generatedFiles/data.tsv" using 1:2

@@ -50,7 +50,7 @@ double ExperimentalData::vectorPlusAxialvectorIntegralMomentum(double s0) {
 
 void ExperimentalData::exportDataPoints() {
     std::ofstream dataFile;
-    dataFile.open(Constants::generatedPath()+"data.dat");
+    dataFile.open(Constants::generatedPath()+"data.tsv");
     for (int i = 0; i < 80; i++) {
         dataFile << alephData.s[i] << "\t" << alephData.sfm2[i] << "\n";
     }

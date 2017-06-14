@@ -3,24 +3,25 @@
 \contentsline {section}{\numberline {3}Theory}{4}{section.3}
 \contentsline {subsection}{\numberline {3.1}The theoretical description of the correlator $\Pi (s)$}{5}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}The perturbative contribution}{5}{subsubsection.3.1.1}
-\contentsline {section}{\numberline {4}Theory}{7}{section.4}
-\contentsline {subsection}{\numberline {4.1}Theory equals Experiment}{10}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Transform Two Point Function to Adler Function via Complex Contour Integration by Parts}{10}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Pearson's $\chi ^2$ test}{11}{subsection.4.3}
-\contentsline {section}{\numberline {5}Adler function Contributions}{11}{section.5}
-\contentsline {subsection}{\numberline {5.1}Dimension Zero}{11}{subsection.5.1}
-\contentsline {section}{\numberline {6}The Experimental Spectral Moments}{11}{section.6}
-\contentsline {section}{\numberline {A}Derivation of the $\tau $-decay ratio}{13}{appendix.A}
-\contentsline {section}{\numberline {B}Coefficients}{15}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}$\beta $ function}{16}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}$\gamma $-function}{16}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}Adler function}{16}{subsection.B.3}
-\contentsline {section}{\numberline {C}Numerical Analysis}{16}{appendix.C}
-\contentsline {subsection}{\numberline {C.1}Finding Roots: Newton-Raphson Method}{17}{subsection.C.1}
-\contentsline {subsection}{\numberline {C.2}Newton-Cotes}{18}{subsection.C.2}
-\contentsline {subsection}{\numberline {C.3}Gauss Quadrature}{18}{subsection.C.3}
-\contentsline {subsection}{\numberline {C.4}Runge-Kutta Methods (Ordinary Differential Equations)}{18}{subsection.C.4}
-\contentsline {subsubsection}{\numberline {C.4.1}Euler's Method}{18}{subsubsection.C.4.1}
-\contentsline {subsubsection}{\numberline {C.4.2}Heun's Method}{19}{subsubsection.C.4.2}
-\contentsline {subsubsection}{\numberline {C.4.3}Runge-Kutta Methods}{19}{subsubsection.C.4.3}
-\contentsline {subsection}{\numberline {C.5}Discrepancies between Matthias and my Code}{20}{subsection.C.5}
+\contentsline {subsection}{\numberline {3.2}The experimental spectral function moments}{6}{subsection.3.2}
+\contentsline {section}{\numberline {4}Theory}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Theory equals Experiment}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Transform Two Point Function to Adler Function via Complex Contour Integration by Parts}{11}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Pearson's $\chi ^2$ test}{12}{subsection.4.3}
+\contentsline {section}{\numberline {5}Adler function Contributions}{12}{section.5}
+\contentsline {subsection}{\numberline {5.1}Dimension Zero}{12}{subsection.5.1}
+\contentsline {section}{\numberline {6}The Experimental Spectral Moments}{12}{section.6}
+\contentsline {section}{\numberline {A}Derivation of the $\tau $-decay ratio}{14}{appendix.A}
+\contentsline {section}{\numberline {B}Coefficients}{16}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}$\beta $ function}{17}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}$\gamma $-function}{17}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}Adler function}{17}{subsection.B.3}
+\contentsline {section}{\numberline {C}Numerical Analysis}{17}{appendix.C}
+\contentsline {subsection}{\numberline {C.1}Finding Roots: Newton-Raphson Method}{18}{subsection.C.1}
+\contentsline {subsection}{\numberline {C.2}Newton-Cotes}{19}{subsection.C.2}
+\contentsline {subsection}{\numberline {C.3}Gauss Quadrature}{19}{subsection.C.3}
+\contentsline {subsection}{\numberline {C.4}Runge-Kutta Methods (Ordinary Differential Equations)}{19}{subsection.C.4}
+\contentsline {subsubsection}{\numberline {C.4.1}Euler's Method}{19}{subsubsection.C.4.1}
+\contentsline {subsubsection}{\numberline {C.4.2}Heun's Method}{20}{subsubsection.C.4.2}
+\contentsline {subsubsection}{\numberline {C.4.3}Runge-Kutta Methods}{20}{subsubsection.C.4.3}
+\contentsline {subsection}{\numberline {C.5}Discrepancies between Matthias and my Code}{21}{subsection.C.5}

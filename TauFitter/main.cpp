@@ -23,7 +23,7 @@ int main() {
     ExperimentalData experimentalData;
     std::cout << "Exp. Integral Momentum " << experimentalData.vectorPlusAxialvectorIntegralMomentum(1.9) << std::endl;
     experimentalData.exportDataPoints();
-    experimentalData.plotDataPoints();
+//    experimentalData.plotDataPoints();
 
     return 0;
 }

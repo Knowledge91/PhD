@@ -109,3 +109,42 @@ With the help of Eq. \eqref{eq:AdlerTransform} we can rewrite the former express
 	D_V^{(T+L)} (s) = \frac{N_c}{12 \pi^2} \sum_{n=0}^\infty a_\mu^n \sum_{k=1}^{n+1} k c_{nk} L^{k-1}
 \end{equation},
 where the coefficients $c_{n,k}$ are given in App. \ref{app:coefficients}.
+
+\subsection{The experimental spectral function moments}
+Our $\tau$ analyses is based on the data compilation of the \textit{ALEPH Group} \cite{ALEPH2013}, which includes the normalized invariant squared mass as a binned array $sfm2$
+\begin{equation}
+	sfm2 = \frac{\diff N_i}{N_i \diff s} B_i \cdot 100,
+\end{equation}
+where the data array is furthermore scaled by $100$ and normalized over one of the branching ratios $B_i$, ($i \in \{V, A, V+A, V-A\}$. We can relate the data to so called \textbf{spectral function moments}. The spectral function moments can be expressed as
+\begin{equation}
+	I(s_0) = \int_0^{s_0} \diff s \omega(s) \rho(s),
+\end{equation}
+with the $\tau$ mass squared $s_\tau = m_\tau^2$ and the spectral function $\rho(s) = 1/\pi \Im \Pi(s)$ can be related to the data array $sfm2$. In the case of hadronic $\tau$ decays, theoretically the total decay rate $R_\tau$  \footnote{which we derived \ref{app:tauDecayRatioDerivation} } can be expressed as
+\begin{equation}
+	R_\tau = 12 \pi^2 \int_0^{s_\tau} \frac{\diff s}{s_\tau} \left(1 - \frac{s}{s_\tau}\right)^2 \left[ \left( 1+2 \frac{s}{s_t} \right) \rho_{V+A}^{(1+0)}(s) - 2 \frac{s}{s_\tau} \rho_{V+A}^{(0)} (s) \right].
+\end{equation}
+The spin 0 contribution of $R_\tau$ can be neglected for the V-channel and for the A-channel when subtracting the pion-pion pole. Thus we can write for the A/V channel
+\begin{equation}
+	R_{\tau, V/A} = 12 \pi^2 \int_0^{s_\tau} \frac{\diff s}{s_\tau} \left(1 - \frac{s}{s_\tau}\right)^2 \left( 1+2 \frac{s}{s_t} \right) \rho_{V/A}^{(1+0)}(s)
+\end{equation}
+and perform the connection between the total decay rate and the given ALEPH data
+\begin{equation}
+	\int_0^{s_\tau} sfm2_{V/A} = \int_0^{s_\tau} \diff s \frac{\diff N_i}{N_i \diff s} B_i \cdot 100 = B_i \cdot 100 = R_{\tau, V/A} B_e \cdot 100
+\end{equation}\footnote{Remember that the total decay with $R_{\tau,V/A} = B_i/B_e$}.
+or 
+\begin{equation}
+	R_{\tau, V/A} = \int_0^{s_\tau} \diff s \frac{sfm2_{V/A}}{B_e\cdot 100} = 12 \pi^2 \int_0^{s_\tau} \frac{\diff s}{s_\tau} \underbrace{\left(1-\frac{s}{s_\tau}\right)^2\left(1+\frac{s}{s_\tau}\right)}_{\omega_\tau} \rho_{V/A}^{(1+0)}(s),
+\end{equation}
+which can be rewritten into the for the spectral function moment necessary spectral function
+\begin{equation}
+	\rho_{V/A}^{(1+0)}(s) = \frac{sfm2_{V/A}}{B_e \cdot 100} \frac{s_\tau}{12 \pi^2 \omega_\tau(s)}.
+\end{equation}
+As we deal with a discrete spectrum of values from the data array we have to sum up to $s_0$ to finally obtain the \textit{experimentall} spectral function moments
+\begin{equation}
+	I(s_0) = \frac{s_\tau}{12 \pi^2} \sum_{sbin[i] \leq s_0} \int_{sbin[i]- 0.5 \Delta sbin[i]}^{sbin[i] + 0.5 \Delta sbin[i]} \diff s \frac{\omega(s)}{\omega_\tau(s)} \frac{sfm2(sbin[i])}{B_e \cdot 100},
+\end{equation}
+where $\Delta sbin[i]$ represents the bin width, which varies in the data. 
+	
+	
+	
+	

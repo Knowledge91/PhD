@@ -115,7 +115,7 @@ public:
     static double mz() { return 91.1876; }
     static double alphaMz() { return 0.1181; }
     static std::string programPath() { return "/Users/Knowledge/Developer/PhD/TauFitter/"; }
-    static std::string generatedPath() { return programPath()+"/generatedFiles"; }
+    static std::string generatedPath() { return programPath()+"/generatedFiles/"; }
 };
 
 
