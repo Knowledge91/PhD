@@ -21,7 +21,7 @@ int main() {
     std::cout << "countour " << integralMomentum.contourIntegral(2.5) << std::endl;
 
     ExperimentalData experimentalData;
-    std::cout << "Exp. Integral Momentum " << experimentalData.vectorPlusAxialvectorIntegralMomentum(1.9) << std::endl;
+    std::cout << "Exp. Integral Momentum " << experimentalData.integralMomentum(1.9) << std::endl;
     experimentalData.exportDataPoints();
 //    experimentalData.plotDataPoints();
 

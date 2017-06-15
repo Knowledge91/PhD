@@ -19,7 +19,8 @@ public:
     }
 
     static std::complex<double> complexFunction(std::complex<double> x) {
-        return exp(- 1i * x );
+        std::complex<double> a = 1.i;
+        return exp(- a * x );
     }
 
 protected:
@@ -28,14 +29,13 @@ protected:
 
 
 TEST_F(NumericalMethodsFixture, GaussianQuadrature) {
-    EXPECT_NEAR(NumericalMethods::integrate(function, 1., -5., 13.), 19152., 1e-9);
+    EXPECT_NEAR(NumericalMethods::integrate(function, -5., 13.), 19152., 1e-9);
 
-    std::complex<double> a, b, c;
-    a = 1.;
+    std::complex<double> b, c;
     b = 3. + 4.i;
     c = -12. + 13.i;
-    EXPECT_NEAR(NumericalMethods::integrate(complexFunction, a, b, c).real(), 237379.339821324 , 1 );
-    EXPECT_NEAR(NumericalMethods::integrate(complexFunction, a, b, c).imag(), 373386.344001859 , 1e-1 );
+    EXPECT_NEAR(NumericalMethods::integrate(complexFunction, b, c).real(), 237379.339821324 , 1 );
+    EXPECT_NEAR(NumericalMethods::integrate(complexFunction, b, c).imag(), 373386.344001859 , 1e-1 );
 }
 
 

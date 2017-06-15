@@ -9685,6 +9685,8 @@ fstream
 -
 ExperimentalData.h
 /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/ExperimentalData.h
+NumericalMethods.h
+/Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/NumericalMethods.h
 
 /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/ExperimentalData.h
 iostream

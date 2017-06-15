@@ -15,7 +15,34 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="305c66df-4acc-4873-bc98-aac106650544" name="Default" comment="" />
+    <list default="true" id="305c66df-4acc-4873-bc98-aac106650544" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/program_run.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/program_run.dir/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/IntegralMomentum.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/IntegralMomentum.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/libprogram.a" afterPath="$PROJECT_DIR$/cmake-build-debug/program/libprogram.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_run" afterPath="$PROJECT_DIR$/cmake-build-debug/program_run" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_run.dSYM/Contents/Resources/DWARF/program_run" afterPath="$PROJECT_DIR$/cmake-build-debug/program_run.dSYM/Contents/Resources/DWARF/program_run" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/ConstantsFixture.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/ConstantsFixture.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/runBasicTests" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/runBasicTests" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/lib/gtest-1.7.0/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/lib/gtest-1.7.0/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/lib/gtest-1.7.0/libgtest_main.a" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/lib/gtest-1.7.0/libgtest_main.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/Constants.h" afterPath="$PROJECT_DIR$/program/Constants.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/IntegralMomentum.h" afterPath="$PROJECT_DIR$/program/IntegralMomentum.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/NumericalMethods.h" afterPath="$PROJECT_DIR$/program/NumericalMethods.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp" afterPath="$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/experimentalData/ExperimentalData.h" afterPath="$PROJECT_DIR$/program/experimentalData/ExperimentalData.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program_test/basic_tests/NumericalMethodsFixture.cpp" afterPath="$PROJECT_DIR$/program_test/basic_tests/NumericalMethodsFixture.cpp" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +57,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="23" column="77" lean-forward="false" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -53,11 +80,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="IntegralMomentum.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/IntegralMomentum.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program_test/basic_tests/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumericalMethodsFixture.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/program_test/basic_tests/NumericalMethodsFixture.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Constants.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program/Constants.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="117" column="78" lean-forward="false" selection-start-line="117" selection-start-column="78" selection-end-line="117" selection-end-column="78" />
+            <state relative-caret-position="1605">
+              <caret line="107" column="42" lean-forward="false" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
               <folding>
                 <element signature="e#95#112#0" expanded="true" />
               </folding>
@@ -65,14 +122,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunAlpha.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/RunAlpha.h">
+      <file leaf-file-name="NumericalMethods.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/NumericalMethods.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding>
-                <element signature="e#93#112#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,8 +135,8 @@
       <file leaf-file-name="ExperimentalData.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+            <state relative-caret-position="840">
+              <caret line="56" column="48" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
               <folding>
                 <element signature="e#46#62#0" expanded="true" />
               </folding>
@@ -89,17 +144,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/Constants.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aleph14_vpa.f90" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aleph14_vpa.f90" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program/experimentalData/aleph14_vpa.f90">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -112,31 +157,11 @@
       <file leaf-file-name="ExperimentalData.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program/experimentalData/ExperimentalData.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding>
                 <element signature="e#85#104#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="num_const.f90" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/experimentalData/num_const.f90">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot.gp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/experimentalData/plot.gp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -153,11 +178,15 @@
       <find>vphlmntv2</find>
       <find>exp</find>
       <find>gener</find>
+      <find>scale</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>constants.</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -169,17 +198,17 @@
         <option value="$PROJECT_DIR$/program_test/basic_tests/numericalMethods_check.cpp" />
         <option value="$PROJECT_DIR$/program/RunAlpha.h" />
         <option value="$PROJECT_DIR$/program/AdlerFunction.h" />
-        <option value="$PROJECT_DIR$/program/NumericalMethods.h" />
-        <option value="$PROJECT_DIR$/program_test/basic_tests/NumericalMethodsFixture.cpp" />
         <option value="$PROJECT_DIR$/program/data/Data.h" />
-        <option value="$PROJECT_DIR$/program/IntegralMomentum.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/program/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/program/experimentalData/ExperimentalData.h" />
-        <option value="$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/program/Constants.h" />
         <option value="$PROJECT_DIR$/program/experimentalData/plot.gp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/program/experimentalData/ExperimentalData.h" />
+        <option value="$PROJECT_DIR$/program/Constants.h" />
+        <option value="$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp" />
+        <option value="$PROJECT_DIR$/program/NumericalMethods.h" />
+        <option value="$PROJECT_DIR$/program/IntegralMomentum.h" />
+        <option value="$PROJECT_DIR$/program_test/basic_tests/NumericalMethodsFixture.cpp" />
       </list>
     </option>
   </component>
@@ -193,6 +222,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -217,6 +247,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TauFitter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhD" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TauFitter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhD" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TauFitter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gtest-1.7.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhD" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TauFitter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic_tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -491,31 +575,11 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="program" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PhD" TARGET_NAME="program" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PhD" TARGET_NAME="gtest" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PhD" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PhD" RUN_TARGET_NAME="program_run" EXPLICIT_BUILD_TARGET_NAME="all">
-      <envs />
-      <method />
-    </configuration>
-    <list size="8">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.program_run" />
-      <item index="1" class="java.lang.String" itemvalue="Application.program" />
-      <item index="2" class="java.lang.String" itemvalue="Application.gtest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.gtest_main" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="5" class="java.lang.String" itemvalue="Google Test.All in ConstantsFixture" />
-      <item index="6" class="java.lang.String" itemvalue="Google Test.All in RunAlphaFixture" />
-      <item index="7" class="java.lang.String" itemvalue="Google Test.All in NumericalMethodsFixture" />
+      <item index="1" class="java.lang.String" itemvalue="Google Test.All in ConstantsFixture" />
+      <item index="2" class="java.lang.String" itemvalue="Google Test.All in RunAlphaFixture" />
+      <item index="3" class="java.lang.String" itemvalue="Google Test.All in NumericalMethodsFixture" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -547,14 +611,13 @@
       <workItem from="1497256642945" duration="8847000" />
       <workItem from="1497335718013" duration="3961000" />
       <workItem from="1497340117997" duration="9377000" />
-      <workItem from="1497438725053" duration="649000" />
+      <workItem from="1497438725053" duration="767000" />
+      <workItem from="1497510502757" duration="3855000" />
+      <workItem from="1497515109794" duration="163000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_NumericalMethodsFixture - 2017.06.12 at 11h 31m 35s.xml">
-      <configuration name="All in NumericalMethodsFixture" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="All_in_NumericalMethodsFixture - 2017.06.12 at 11h 32m 02s.xml">
       <configuration name="All in NumericalMethodsFixture" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
@@ -582,9 +645,12 @@
     <history-entry file="All_in_NumericalMethodsFixture - 2017.06.12 at 15h 06m 34s.xml">
       <configuration name="All in NumericalMethodsFixture" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="All_in_NumericalMethodsFixture - 2017.06.15 at 10h 27m 07s.xml">
+      <configuration name="All in NumericalMethodsFixture" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41915000" />
+    <option name="totallyTimeSpent" value="46051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -592,17 +658,17 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2778429" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38921455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25087926" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25087926" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2778429" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -624,16 +690,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/program/NumericalMethods.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -664,9 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="93" lean-forward="false" selection-start-line="48" selection-start-column="93" selection-end-line="48" selection-end-column="93" />
-          <folding>
-            <element signature="e#93#112#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,9 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-          <folding>
-            <element signature="e#93#112#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,30 +926,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program_test/basic_tests/NumericalMethodsFixture.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/NumericalMethods.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/program/data/aleph14_vpa.f90" />
     <entry file="file://$PROJECT_DIR$/program/data/Data.cpp" />
     <entry file="file://$PROJECT_DIR$/program/data/Data.h" />
-    <entry file="file://$PROJECT_DIR$/program/IntegralMomentum.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -921,6 +950,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/program/Constants.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/experimentalData/num_const.f90">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/RunAlpha.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/experimentalData/plot.gp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/experimentalData/aleph14_vpa.f90">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="77" lean-forward="false" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/program/AdlerFunction.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -933,56 +1008,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/Constants.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/experimentalData/num_const.f90">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/RunAlpha.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="e#93#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-          <folding>
-            <element signature="e#46#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/program/Constants.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" column="78" lean-forward="false" selection-start-line="117" selection-start-column="78" selection-end-line="117" selection-end-column="78" />
+        <state relative-caret-position="1605">
+          <caret line="107" column="42" lean-forward="false" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
           <folding>
             <element signature="e#95#112#0" expanded="true" />
           </folding>
@@ -991,26 +1020,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/program/experimentalData/ExperimentalData.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="e#85#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/experimentalData/plot.gp">
+    <entry file="file://$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        <state relative-caret-position="840">
+          <caret line="56" column="48" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+          <folding>
+            <element signature="e#46#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/NumericalMethods.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/experimentalData/aleph14_vpa.f90">
+    <entry file="file://$PROJECT_DIR$/program/IntegralMomentum.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program_test/basic_tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program_test/basic_tests/NumericalMethodsFixture.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

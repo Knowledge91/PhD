@@ -20,8 +20,13 @@ public:
      */
     ExperimentalData();
 
-
-    double vectorPlusAxialvectorIntegralMomentum(double s0);
+    /*
+     * Method: integralMomentum
+     * Usage: integralMomentum(double s0)
+     * ------------------------------------------
+     * Outputs the experimental integral Momentum for the invariant mass squared s0
+     */
+    double integralMomentum(double s0);
 
     /*
      * Method : exportDataPoints()
@@ -46,7 +51,7 @@ public:
 private:
     struct AlephData {
     public:
-        std::vector<double> s;          // mass squared bin center in GeV^2
+        std::vector<double> sbin;       // mass squared bin center in GeV^2
         std::vector<double> binWidth;   // bin size in Gev^2
         std::vector<double> sfm2;       // normalized invariant mass squared distribution
     };

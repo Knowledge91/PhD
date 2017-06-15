@@ -104,6 +104,9 @@ public:
         }
     }
 
+    static double wTau(double x) {
+        return std::pow((1-x), 2)*(1+2*x);
+    }
 
     int nc;
     int nf;
@@ -113,7 +116,11 @@ public:
     }
     constexpr static double lamba = 0.332;
     static double mz() { return 91.1876; }
+    static double sTau() { return std::pow(mz(), 2); }
     static double alphaMz() { return 0.1181; }
+    static double Be() { return 0.1782740; }
+    static double Vud() { return 0.9742522; }
+    static double SEW() { 1.02013; }
     static std::string programPath() { return "/Users/Knowledge/Developer/PhD/TauFitter/"; }
     static std::string generatedPath() { return programPath()+"/generatedFiles/"; }
 };
