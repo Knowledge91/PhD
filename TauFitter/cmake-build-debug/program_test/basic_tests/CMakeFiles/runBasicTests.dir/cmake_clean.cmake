@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/runBasicTests.dir/RunAlphaFixture.cpp.o"
   "CMakeFiles/runBasicTests.dir/NumericalMethodsFixture.cpp.o"
   "CMakeFiles/runBasicTests.dir/AdlerFunctionFixture.cpp.o"
+  "CMakeFiles/runBasicTests.dir/ExperimentalData.cpp.o"
   "runBasicTests.pdb"
   "runBasicTests"
 )

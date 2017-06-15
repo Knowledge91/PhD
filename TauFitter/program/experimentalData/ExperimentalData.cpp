@@ -28,34 +28,37 @@ ExperimentalData::ExperimentalData() {
 }
 
 double ExperimentalData::integralMomentum(double s0) {
-    int Nmax = 0;
+    int nMax = 80;
 
     // Set Nmax to next bigger sbin
     for (int i = 80; i > 0; i--) {
         //std::cout << sbin[i] << std::endl;
         if(fabs(s0-alephData.sbin[i]) < alephData.binWidth[i]/2.) {
-            Nmax = i;
+            nMax = i;
             // std::cout << "Nmax: " << Nmax << std::endl;
             break;
         }
     }
 
-    std::cout << " sfm2[0] " << alephData.sfm2[0] << std::endl;
-
     // Integrate momenta up to s0
     double mom = 0.;
 
-    double prefactor = Constants::mz() / 12. / std::pow(Constants::pi(), 2) / 100. / Constants::Be();
+    double prefactor = Constants::sTau() / 12. / std::pow(Constants::pi(), 2) / 100. / Constants::Be();
 
-    auto wTau = [&](double s) -> double {
-        return Constants::wTau(s/Constants::sTau());
+    // prepare 1/wTau(s/sTau) scale
+    auto weight = [&](double s) -> double {
+        return 1./Constants::wTau(s/Constants::sTau());
     };
 
-    for (int i=0; i <= Nmax; i++) {
-        double lowerLimit = alephData.sbin[i] - alephData.binWidth[i]/2;
-        double upperLimit = alephData.sbin[i] + alephData.binWidth[i]/2;
-        double wTauInt = NumericalMethods::integrate(wTau, lowerLimit, upperLimit);
-        mom += alephData.sfm2[i];
+    auto fkt = [](double x) {
+        return std::pow((1-x),2)*(1.+2.*x);
+    };
+
+    for (int i=0; i <= nMax; i++) {
+        double lowerLimit = alephData.sbin[i] - alephData.binWidth[i]/2.;
+        double upperLimit = alephData.sbin[i] + alephData.binWidth[i]/2.;
+        double weightInt = NumericalMethods::integrate(weight, lowerLimit, upperLimit);
+        mom += weightInt*alephData.sfm2[i];
     }
     return prefactor*mom;
 }
@@ -64,7 +67,7 @@ void ExperimentalData::exportDataPoints() {
     std::ofstream dataFile;
     dataFile.open(Constants::generatedPath()+"data.tsv");
     for (int i = 0; i < 80; i++) {
-        dataFile << alephData.sbin[i] << "\t" << alephData.sfm2[i] << "\n";
+        dataFile << alephData.sbin[i] << "\t" << alephData.sfm2[i] << "\t" << alephData.binWidth[i]  << "\n";
     }
     dataFile.close();
 }

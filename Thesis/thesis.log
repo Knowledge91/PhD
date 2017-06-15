@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.7.12)  14 JUN 2017 14:42
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.7.12)  15 JUN 2017 13:10
  restricted system commands enabled.
  file:line:error style messages enabled.
 **thesis.tex
@@ -1584,7 +1584,7 @@ Here is how much of LuaTeX's memory you used:
  100000,383344 words of node,token memory allocated
  19207 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2684 glue, 1 kern, 50 glue_spec, 1 write nodes
-   avail lists: 2:45,3:200,4:96,5:287,6:2412,7:545,8:143,9:800,10:17,11:178
+   avail lists: 2:45,3:199,4:96,5:287,6:2412,7:545,8:146,9:800,10:17,11:178
  18095 multiletter control sequences out of 65536+600000
  85 fonts using 3524555 bytes
  41i,23n,43p,864b,399s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1613,7 +1613,7 @@ msfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on thesis.pdf (23 pages, 458813 bytes).
+Output written on thesis.pdf (23 pages, 458790 bytes).
 
 PDF statistics: 562 PDF objects out of 1000 (max. 8388607)
  202 named destinations out of 1000 (max. 131072)

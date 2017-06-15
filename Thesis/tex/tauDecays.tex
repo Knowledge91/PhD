@@ -141,7 +141,7 @@ which can be rewritten into the for the spectral function moment necessary spect
 \end{equation}
 As we deal with a discrete spectrum of values from the data array we have to sum up to $s_0$ to finally obtain the \textit{experimentall} spectral function moments
 \begin{equation}
-	I(s_0) = \frac{s_\tau}{12 \pi^2} \sum_{sbin[i] \leq s_0} \int_{sbin[i]- 0.5 \Delta sbin[i]}^{sbin[i] + 0.5 \Delta sbin[i]} \diff s \frac{\omega(s)}{\omega_\tau(s)} \frac{sfm2(sbin[i])}{B_e \cdot 100},
+	I(s_0) = \frac{s_\tau}{12 \pi^2 Be \cdot 100} \sum_{sbin[i] \leq s_0} \int_{sbin[i]- 0.5 \Delta sbin[i]}^{sbin[i] + 0.5 \Delta sbin[i]} \diff s \frac{\omega(s)}{\omega_\tau(s)} sfm2(sbin[i]),
 \end{equation}
 where $\Delta sbin[i]$ represents the bin width, which varies in the data. 
 	

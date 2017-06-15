@@ -105,7 +105,7 @@ public:
     }
 
     static double wTau(double x) {
-        return std::pow((1-x), 2)*(1+2*x);
+        return std::pow((1.-x), 2)*(1.+2.*x);
     }
 
     int nc;

@@ -9618,6 +9618,16 @@ boost/math/tools/roots.hpp
 Constants.h
 ../program/Constants.h
 
+../program/experimentalData/ExperimentalData.h
+iostream
+-
+map
+-
+vector
+-
+Constants.h
+../program/experimentalData/Constants.h
+
 ../program_test/lib/gtest-1.7.0/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
 ../program_test/lib/gtest-1.7.0/include/gtest/gtest/internal/gtest-death-test-internal.h
@@ -9901,6 +9911,12 @@ gtest/gtest.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/gtest/gtest.h
 Constants.h
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/Constants.h
+
+/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/ExperimentalData.cpp
+experimentalData/ExperimentalData.h
+/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/experimentalData/ExperimentalData.h
+gtest/gtest.h
+/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/gtest/gtest.h
 
 /Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/NumericalMethodsFixture.cpp
 complex

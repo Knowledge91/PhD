@@ -204,6 +204,9 @@
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/ConstantsFixture.cpp">
 			<Option target="runBasicTests"/>
 		</Unit>
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/ExperimentalData.cpp">
+			<Option target="runBasicTests"/>
+		</Unit>
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests/NumericalMethodsFixture.cpp">
 			<Option target="runBasicTests"/>
 		</Unit>
