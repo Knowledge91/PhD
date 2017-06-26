@@ -8,7 +8,17 @@
 #include "Minuit2/RosenBrockFCN.h"
 #include "Minuit2/MnMigrad.h"
 #include "Minuit2/MnUserParameters.h"
+#include "Minuit2/Minuit2Minimizer.h"
+#include "Math/Functor.h"
 
+double RosenBrock(const double *xx )
+{
+    const double x = xx[0];
+    const double y = xx[1];
+    const double tmp1 = y-x*x;
+    const double tmp2 = 1-x;
+    return 100*tmp1*tmp1+tmp2*tmp2;
+}
 
 extern"C" {
 double vphlmntv2_(double *energy, double *vprehadsp, double *vprehadtm, double *vpimhad, double *vprelepsp, double *vpreleptm, double *vpimlep, double *vpretopsp, double *vpretoptm, int *nrflag);
@@ -32,14 +42,25 @@ int main() {
 
 
     // MINUIT2 TEST
-    ROOT::Minuit2::MnUserParameters userParameters;
-    //MnUserParameters.Add(name, initial Value, STEP)
-    userParameters.Add("x", -1., 0.01);
-    userParameters.Add("y", 1.2, 0.01);
+    ROOT::Minuit2::Minuit2Minimizer min ( ROOT::Minuit2::kMigrad );
+    min.SetMaxFunctionCalls(1000000);
+    min.SetMaxIterations(100000);
+    min.SetTolerance(1e-15);
 
-    RosenBrockFCN rosenBrockFCN;
-    ROOT::Minuit2::MnMigrad migrad(rosenBrockFCN, userParameters);
-    migrad.Minimizer();
+    ROOT::Math::Functor f(&RosenBrock, 2);
+    double step[2] = {0.01,0.01};
+    double variable[2] = { -1.,1.2};
 
+    min.SetFunction(f);
+
+    // Set the free variables to be minimized!
+    min.SetVariable(0,"x",variable[0], step[0]);
+    min.SetVariable(1,"y",variable[1], step[1]);
+
+    min.Minimize();
+
+    const double *xs = min.X();
+    std::cout << "Minimum: f(" << xs[0] << "," << xs[1] << "): "
+         << RosenBrock(xs) << std::endl;
     return 0;
 }

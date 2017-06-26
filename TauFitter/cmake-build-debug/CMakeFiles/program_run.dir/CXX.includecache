@@ -6,6 +6,38 @@
 
 #IncludeRegexTransform: 
 
+../frameworks/Minuit2-5.34.14/inc/Math/Functor.h
+Math/IFunction.h
+../frameworks/Minuit2-5.34.14/inc/Math/Math/IFunction.h
+memory
+-
+
+../frameworks/Minuit2-5.34.14/inc/Math/IFunction.h
+Math/IFunctionfwd.h
+../frameworks/Minuit2-5.34.14/inc/Math/Math/IFunctionfwd.h
+
+../frameworks/Minuit2-5.34.14/inc/Math/IFunctionfwd.h
+
+../frameworks/Minuit2-5.34.14/inc/Math/Minimizer.h
+Math/IFunction.h
+../frameworks/Minuit2-5.34.14/inc/Math/Math/IFunction.h
+Math/MinimizerOptions.h
+../frameworks/Minuit2-5.34.14/inc/Math/Math/MinimizerOptions.h
+vector
+-
+string
+-
+limits
+-
+cmath
+-
+
+../frameworks/Minuit2-5.34.14/inc/Math/MinimizerOptions.h
+string
+-
+iostream
+-
+
 ../frameworks/Minuit2-5.34.14/inc/Minuit2/ABObj.h
 Minuit2/ABTypes.h
 ../frameworks/Minuit2-5.34.14/inc/Minuit2/Minuit2/ABTypes.h
@@ -205,6 +237,14 @@ Minuit2/MnRefCountedPointer.h
 ../frameworks/Minuit2-5.34.14/inc/Minuit2/Minuit2/MnRefCountedPointer.h
 Minuit2/BasicMinimumState.h
 ../frameworks/Minuit2-5.34.14/inc/Minuit2/Minuit2/BasicMinimumState.h
+
+../frameworks/Minuit2-5.34.14/inc/Minuit2/Minuit2Minimizer.h
+Math/Minimizer.h
+../frameworks/Minuit2-5.34.14/inc/Minuit2/Math/Minimizer.h
+Minuit2/MnUserParameterState.h
+../frameworks/Minuit2-5.34.14/inc/Minuit2/Minuit2/MnUserParameterState.h
+Math/IFunctionfwd.h
+../frameworks/Minuit2-5.34.14/inc/Minuit2/Math/IFunctionfwd.h
 
 ../frameworks/Minuit2-5.34.14/inc/Minuit2/MinuitParameter.h
 algorithm
@@ -10027,4 +10067,8 @@ Minuit2/MnMigrad.h
 /Users/Knowledge/Developer/PhD/TauFitter/Minuit2/MnMigrad.h
 Minuit2/MnUserParameters.h
 /Users/Knowledge/Developer/PhD/TauFitter/Minuit2/MnUserParameters.h
+Minuit2/Minuit2Minimizer.h
+/Users/Knowledge/Developer/PhD/TauFitter/Minuit2/Minuit2Minimizer.h
+Math/Functor.h
+/Users/Knowledge/Developer/PhD/TauFitter/Math/Functor.h
 
