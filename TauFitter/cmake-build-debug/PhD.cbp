@@ -87,6 +87,7 @@
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/boost_1_64_0"/>
+					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/Minuit2-5.34.14/inc"/>
 					<Add directory="/opt/local/include/gcc6/c++/"/>
 					<Add directory="/opt/local/include/gcc6/c++//x86_64-apple-darwin16"/>
 					<Add directory="/opt/local/include/gcc6/c++//backward"/>
@@ -114,6 +115,7 @@
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/boost_1_64_0"/>
+					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/Minuit2-5.34.14/inc"/>
 					<Add directory="/opt/local/include/gcc6/c++/"/>
 					<Add directory="/opt/local/include/gcc6/c++//x86_64-apple-darwin16"/>
 					<Add directory="/opt/local/include/gcc6/c++//backward"/>
@@ -141,6 +143,7 @@
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/boost_1_64_0"/>
+					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/Minuit2-5.34.14/inc"/>
 					<Add directory="/opt/local/include/gcc6/c++/"/>
 					<Add directory="/opt/local/include/gcc6/c++//x86_64-apple-darwin16"/>
 					<Add directory="/opt/local/include/gcc6/c++//backward"/>
@@ -168,6 +171,7 @@
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/boost_1_64_0"/>
+					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/Minuit2-5.34.14/inc"/>
 					<Add directory="/opt/local/include/gcc6/c++/"/>
 					<Add directory="/opt/local/include/gcc6/c++//x86_64-apple-darwin16"/>
 					<Add directory="/opt/local/include/gcc6/c++//backward"/>
@@ -195,6 +199,7 @@
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/boost_1_64_0"/>
+					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/Minuit2-5.34.14/inc"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0/include"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0"/>
@@ -225,6 +230,7 @@
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/boost_1_64_0"/>
+					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/Minuit2-5.34.14/inc"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0/include"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0"/>
@@ -255,6 +261,7 @@
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/boost_1_64_0"/>
+					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/Minuit2-5.34.14/inc"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0/include"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0"/>
@@ -285,6 +292,7 @@
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/boost_1_64_0"/>
+					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/Minuit2-5.34.14/inc"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0/include"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0"/>
@@ -315,6 +323,7 @@
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/boost_1_64_0"/>
+					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/Minuit2-5.34.14/inc"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0/include"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0"/>
@@ -345,6 +354,7 @@
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/boost_1_64_0"/>
+					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/frameworks/Minuit2-5.34.14/inc"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/basic_tests"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0/include"/>
 					<Add directory="/Users/Knowledge/Developer/PhD/TauFitter/program_test/lib/gtest-1.7.0"/>
@@ -385,6 +395,9 @@
 			<Option target="program"/>
 		</Unit>
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.h">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/Minuit2/RosenBrockFCN.h">
 			<Option target="program"/>
 		</Unit>
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.cpp">

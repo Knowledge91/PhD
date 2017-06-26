@@ -13,6 +13,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../program"
   "../program_test"
   "../frameworks/boost_1_64_0"
+  "../frameworks/Minuit2-5.34.14/inc"
   "../program_test/basic_tests"
   "../program_test/lib/gtest-1.7.0/include"
   "../program_test/lib/gtest-1.7.0"

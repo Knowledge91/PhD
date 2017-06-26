@@ -19,6 +19,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../program"
   "../program_test"
   "../frameworks/boost_1_64_0"
+  "../frameworks/Minuit2-5.34.14/inc"
   )
 set(CMAKE_DEPENDS_CHECK_Fortran
   "/Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/aleph14_vpa.f90" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o"
@@ -32,6 +33,7 @@ set(CMAKE_Fortran_TARGET_INCLUDE_PATH
   "../program"
   "../program_test"
   "../frameworks/boost_1_64_0"
+  "../frameworks/Minuit2-5.34.14/inc"
   )
 
 # Targets to which this target links.

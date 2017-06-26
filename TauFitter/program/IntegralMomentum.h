@@ -5,8 +5,8 @@
 #ifndef PHD_INTEGRALMOMENTUM_H
 #define PHD_INTEGRALMOMENTUM_H
 
-#import <complex>
-#import <AdlerFunction.h>
+#include <complex>
+#include <AdlerFunction.h>
 #include <typeinfo>
 
 using namespace std::complex_literals;

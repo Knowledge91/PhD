@@ -1,0 +1,43 @@
+SinParameterTransformation.lo: SinParameterTransformation.cxx \
+ ../inc/Minuit2/SinParameterTransformation.h \
+ ../inc/Minuit2/MnMachinePrecision.h /opt/local/include/gcc6/c++/math.h \
+ /opt/local/include/gcc6/c++/cmath \
+ /opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/c++config.h \
+ /opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/os_defines.h \
+ /opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/cpu_defines.h \
+ /opt/local/include/gcc6/c++/bits/cpp_type_traits.h \
+ /opt/local/include/gcc6/c++/ext/type_traits.h \
+ /opt/local/lib/gcc6/gcc/x86_64-apple-darwin16/6.2.0/include-fixed/math.h \
+ /usr/include/sys/cdefs.h /usr/include/sys/_symbol_aliasing.h \
+ /usr/include/sys/_posix_availability.h /usr/include/Availability.h \
+ /usr/include/AvailabilityInternal.h
+
+../inc/Minuit2/SinParameterTransformation.h:
+
+../inc/Minuit2/MnMachinePrecision.h:
+
+/opt/local/include/gcc6/c++/math.h:
+
+/opt/local/include/gcc6/c++/cmath:
+
+/opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/c++config.h:
+
+/opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/os_defines.h:
+
+/opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/cpu_defines.h:
+
+/opt/local/include/gcc6/c++/bits/cpp_type_traits.h:
+
+/opt/local/include/gcc6/c++/ext/type_traits.h:
+
+/opt/local/lib/gcc6/gcc/x86_64-apple-darwin16/6.2.0/include-fixed/math.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:

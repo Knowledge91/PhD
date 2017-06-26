@@ -13,6 +13,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../program"
   "../program_test"
   "../frameworks/boost_1_64_0"
+  "../frameworks/Minuit2-5.34.14/inc"
   )
 
 # Targets to which this target links.

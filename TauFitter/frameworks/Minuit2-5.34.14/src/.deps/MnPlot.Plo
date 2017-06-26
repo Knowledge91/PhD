@@ -1,0 +1,133 @@
+MnPlot.lo: MnPlot.cxx ../inc/Minuit2/MnPlot.h ../inc/Minuit2/MnConfig.h \
+ /opt/local/include/gcc6/c++/vector \
+ /opt/local/include/gcc6/c++/bits/stl_algobase.h \
+ /opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/c++config.h \
+ /opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/os_defines.h \
+ /opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/cpu_defines.h \
+ /opt/local/include/gcc6/c++/bits/functexcept.h \
+ /opt/local/include/gcc6/c++/bits/exception_defines.h \
+ /opt/local/include/gcc6/c++/bits/cpp_type_traits.h \
+ /opt/local/include/gcc6/c++/ext/type_traits.h \
+ /opt/local/include/gcc6/c++/ext/numeric_traits.h \
+ /opt/local/include/gcc6/c++/bits/stl_pair.h \
+ /opt/local/include/gcc6/c++/bits/move.h \
+ /opt/local/include/gcc6/c++/bits/concept_check.h \
+ /opt/local/include/gcc6/c++/type_traits \
+ /opt/local/include/gcc6/c++/bits/stl_iterator_base_types.h \
+ /opt/local/include/gcc6/c++/bits/stl_iterator_base_funcs.h \
+ /opt/local/include/gcc6/c++/debug/assertions.h \
+ /opt/local/include/gcc6/c++/bits/stl_iterator.h \
+ /opt/local/include/gcc6/c++/bits/ptr_traits.h \
+ /opt/local/include/gcc6/c++/debug/debug.h \
+ /opt/local/include/gcc6/c++/bits/predefined_ops.h \
+ /opt/local/include/gcc6/c++/bits/allocator.h \
+ /opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/c++allocator.h \
+ /opt/local/include/gcc6/c++/ext/new_allocator.h \
+ /opt/local/include/gcc6/c++/new /opt/local/include/gcc6/c++/exception \
+ /opt/local/include/gcc6/c++/bits/atomic_lockfree_defines.h \
+ /opt/local/include/gcc6/c++/bits/exception_ptr.h \
+ /opt/local/include/gcc6/c++/bits/nested_exception.h \
+ /opt/local/include/gcc6/c++/bits/memoryfwd.h \
+ /opt/local/include/gcc6/c++/bits/stl_construct.h \
+ /opt/local/include/gcc6/c++/ext/alloc_traits.h \
+ /opt/local/include/gcc6/c++/bits/alloc_traits.h \
+ /opt/local/include/gcc6/c++/bits/stl_uninitialized.h \
+ /opt/local/include/gcc6/c++/bits/stl_vector.h \
+ /opt/local/include/gcc6/c++/initializer_list \
+ /opt/local/include/gcc6/c++/bits/stl_bvector.h \
+ /opt/local/include/gcc6/c++/bits/functional_hash.h \
+ /opt/local/include/gcc6/c++/bits/hash_bytes.h \
+ /opt/local/include/gcc6/c++/bits/range_access.h \
+ /opt/local/include/gcc6/c++/bits/vector.tcc \
+ /opt/local/include/gcc6/c++/utility \
+ /opt/local/include/gcc6/c++/bits/stl_relops.h
+
+../inc/Minuit2/MnPlot.h:
+
+../inc/Minuit2/MnConfig.h:
+
+/opt/local/include/gcc6/c++/vector:
+
+/opt/local/include/gcc6/c++/bits/stl_algobase.h:
+
+/opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/c++config.h:
+
+/opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/os_defines.h:
+
+/opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/cpu_defines.h:
+
+/opt/local/include/gcc6/c++/bits/functexcept.h:
+
+/opt/local/include/gcc6/c++/bits/exception_defines.h:
+
+/opt/local/include/gcc6/c++/bits/cpp_type_traits.h:
+
+/opt/local/include/gcc6/c++/ext/type_traits.h:
+
+/opt/local/include/gcc6/c++/ext/numeric_traits.h:
+
+/opt/local/include/gcc6/c++/bits/stl_pair.h:
+
+/opt/local/include/gcc6/c++/bits/move.h:
+
+/opt/local/include/gcc6/c++/bits/concept_check.h:
+
+/opt/local/include/gcc6/c++/type_traits:
+
+/opt/local/include/gcc6/c++/bits/stl_iterator_base_types.h:
+
+/opt/local/include/gcc6/c++/bits/stl_iterator_base_funcs.h:
+
+/opt/local/include/gcc6/c++/debug/assertions.h:
+
+/opt/local/include/gcc6/c++/bits/stl_iterator.h:
+
+/opt/local/include/gcc6/c++/bits/ptr_traits.h:
+
+/opt/local/include/gcc6/c++/debug/debug.h:
+
+/opt/local/include/gcc6/c++/bits/predefined_ops.h:
+
+/opt/local/include/gcc6/c++/bits/allocator.h:
+
+/opt/local/include/gcc6/c++/x86_64-apple-darwin16/bits/c++allocator.h:
+
+/opt/local/include/gcc6/c++/ext/new_allocator.h:
+
+/opt/local/include/gcc6/c++/new:
+
+/opt/local/include/gcc6/c++/exception:
+
+/opt/local/include/gcc6/c++/bits/atomic_lockfree_defines.h:
+
+/opt/local/include/gcc6/c++/bits/exception_ptr.h:
+
+/opt/local/include/gcc6/c++/bits/nested_exception.h:
+
+/opt/local/include/gcc6/c++/bits/memoryfwd.h:
+
+/opt/local/include/gcc6/c++/bits/stl_construct.h:
+
+/opt/local/include/gcc6/c++/ext/alloc_traits.h:
+
+/opt/local/include/gcc6/c++/bits/alloc_traits.h:
+
+/opt/local/include/gcc6/c++/bits/stl_uninitialized.h:
+
+/opt/local/include/gcc6/c++/bits/stl_vector.h:
+
+/opt/local/include/gcc6/c++/initializer_list:
+
+/opt/local/include/gcc6/c++/bits/stl_bvector.h:
+
+/opt/local/include/gcc6/c++/bits/functional_hash.h:
+
+/opt/local/include/gcc6/c++/bits/hash_bytes.h:
+
+/opt/local/include/gcc6/c++/bits/range_access.h:
+
+/opt/local/include/gcc6/c++/bits/vector.tcc:
+
+/opt/local/include/gcc6/c++/utility:
+
+/opt/local/include/gcc6/c++/bits/stl_relops.h:
