@@ -27,6 +27,7 @@ extern"C" {
 void aleph_vplusa_(double *sbin, double *dsbin, double *sfm2, double *derr, double (*corerr)[80]);
 }
 
+
 int main() {
     std::cout << "Tau fitter start..." << std::endl;
 
@@ -62,5 +63,25 @@ int main() {
     const double *xs = min.X();
     std::cout << "Minimum: f(" << xs[0] << "," << xs[1] << "): "
          << RosenBrock(xs) << std::endl;
+
+
+
+    // invert Matrix test
+    std::cout << " Matrix inverter " << std::endl;
+
+    std::vector<std::vector<double> > a(3, std::vector<double>(3));
+    a[0][0] = 3.; a[0][1] = 0.; a[0][2] = 2.;
+    a[1][0] = 2.; a[1][1] = 0.; a[1][2] = -2.;
+    a[2][0] = 0.; a[2][1] = 1.; a[2][2] = 1.;
+
+    std::vector<std::vector<double> > b(3, std::vector<double>(3));
+
+    b[0][0] = b[1][1] = b[2][2] = 1.;
+    b[0][1] = b[0][2] = b[1][0] = b[1][2] = b[2][0] = b[2][1] = 0.;
+
+    NumericalMethods::gaussj(a);
+    std::cout << " Call Matrix inverter " << a[0][0] << std::endl;
+
+
     return 0;
 }

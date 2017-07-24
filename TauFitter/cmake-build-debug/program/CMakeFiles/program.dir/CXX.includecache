@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -9607,6 +9607,8 @@ cmath
 -
 vector
 -
+iostream
+-
 
 ../program/RunAlpha.h
 iostream
@@ -9662,6 +9664,8 @@ NumericalMethods.h
 cmath
 -
 vector
+-
+iostream
 -
 
 /Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.cpp

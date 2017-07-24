@@ -7,7 +7,11 @@
 
 #include <cmath>
 #include <vector>
+#include <iostream>
 
+template<class T>
+inline void SWAP(T &a, T &b)
+{T dum=a; a=b; b=dum;}
 
 class NumericalMethods {
 public:
@@ -60,6 +64,105 @@ public:
         }
 
         return s;
+    }
+
+    /*
+     * Matrix Container
+     * ------------------------------------------
+     * Represents a matrix based on std:vector<std:vector<double> >
+     */
+    struct Matrix {
+        /*
+         * Initializer:
+         * Usage: Matrix Matrix(int rows)
+         * ------------------------------------------
+         * Initializes an empty squared matrix.
+         */
+        Matrix(std::vector<std::vector<double> > matrix) : matrix(matrix) {};
+
+        /*
+         * nrows:
+         * Usage: Matrix.nrows()
+         * ------------------------------------------
+         * Returns the number of rows of the matrix.
+         */
+        int nrows() {
+           return matrix.size();
+        }
+
+        /*
+         * ncols:
+         * Usage: Matrix.ncols()
+         * ------------------------------------------
+         * Returns the number of columns of the matrix.
+         */
+        int ncols() {
+            return matrix[0].size();
+        }
+
+
+       private:
+        std::vector<std::vector<double> > matrix;
+    };
+
+    /*
+     * gaussj:
+     * Usage: ExperimentalData experimentalData()
+     * ------------------------------------------
+     * Fills the AlephData struct with data from experimentalData/aleph14_vpa.f90
+     * taken from: Numerical Recipies, Third Edition, p. 44-45
+     */
+    static void gaussj(std::vector<std::vector<double> > &a, std::vector<std::vector<double> > &b) {
+        int i, icol, irow, j, k, l, ll, n = a.size(), m = b[0].size();
+        double big, dum, pivinv;
+
+        std::vector<int> indxc(n), indxr(n), ipiv(n);
+        for (j=0; j<n; j++) ipiv[j]=0;
+        for (i=0; i<n; i++) {
+            big = 0.0;
+            for (j = 0; j < n; j++)
+                if (ipiv[j] != 1)
+                    for (k = 0; k < n; k++) {
+                        if (ipiv[k] == 0) {
+                            if (abs(a[j][k]) >= big) {
+                                big = abs(a[j][k]);
+                                irow = j;
+                                icol = k;
+                            }
+                        }
+                    }
+            ++(ipiv[icol]);
+
+            if (irow != icol) {
+                for (l = 0; l < n; l++) SWAP(a[irow][l], a[icol][l]);
+                for (l = 0; l < m; l++) SWAP(b[irow][l], b[icol][l]);
+            }
+            indxr[i] = irow;
+            indxc[i] = icol;
+            if (a[icol][icol] == 0.0) throw ("gaussj: Singular Matrix");
+            pivinv = 1.0 / a[icol][icol];
+            a[icol][icol] = 1.0;
+            for (l = 0; l < n; l++) a[icol][l] *= pivinv;
+            for (l = 0; l < m; l++) b[icol][l] *= pivinv;
+            for (ll = 0; ll < n; ll++)
+                if (ll != icol) {
+                    dum = a[ll][icol];
+                    a[ll][icol] = 0.0;
+                    for (l = 0; l < n; l++) a[ll][l] -= a[icol][l] * dum;
+                    for (l = 0; l < m; l++) b[ll][l] -= b[icol][l] * dum;
+                }
+        }
+
+        for (l=n-1; l>=0; l--) {
+            if (indxr[l] != indxc[l])
+                for (k=0; k<n; k++)
+                    SWAP(a[k][indxr[l]], a[k][indxc[l]]);
+        }
+    }
+
+    static void gaussj(std::vector<std::vector<double> > &a) {
+        std::vector<std::vector<double> > b(a.size(), std::vector<double>(a.size()));
+        gaussj(a, b);
     }
 
 };

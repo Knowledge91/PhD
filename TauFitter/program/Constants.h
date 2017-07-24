@@ -116,7 +116,8 @@ public:
     }
     constexpr static double lamba = 0.332;
     static double mz() { return 91.1876; }
-    static double sTau() { return std::pow(mz(), 2); }
+    static double mTau() { return 1776.86; } // MeV PDG 2016, p. 32
+    static double sTau() { return std::pow(mTau(), 2); }
     static double alphaMz() { return 0.1181; }
     static double Be() { return 0.1782740; }
     static double Vud() { return 0.9742522; }

@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -10026,6 +10026,8 @@ Minuit2/FCNBase.h
 cmath
 -
 vector
+-
+iostream
 -
 
 ../program/RunAlpha.h

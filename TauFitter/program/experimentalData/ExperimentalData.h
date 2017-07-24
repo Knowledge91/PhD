@@ -8,6 +8,11 @@
 #include <iostream>
 #include <map>
 #include <vector>
+
+//#include <boost/numeric/ublas/matrix.hpp>
+//#include <boost/numeric/ublas/lu.hpp>
+//#include <boost/numeric/ublas/io.hpp>
+
 #include "Constants.h"
 
 class ExperimentalData {
@@ -55,6 +60,11 @@ private:
         std::vector<double> binWidth;   // bin size in Gev^2
         std::vector<double> sfm2;       // normalized invariant mass squared distribution
     };
+
+    /*
+     *
+     */
+
 
     void initData(double maxEnergy);
 
