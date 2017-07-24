@@ -67,45 +67,6 @@ public:
     }
 
     /*
-     * Matrix Container
-     * ------------------------------------------
-     * Represents a matrix based on std:vector<std:vector<double> >
-     */
-    struct Matrix {
-        /*
-         * Initializer:
-         * Usage: Matrix Matrix(int rows)
-         * ------------------------------------------
-         * Initializes an empty squared matrix.
-         */
-        Matrix(std::vector<std::vector<double> > matrix) : matrix(matrix) {};
-
-        /*
-         * nrows:
-         * Usage: Matrix.nrows()
-         * ------------------------------------------
-         * Returns the number of rows of the matrix.
-         */
-        int nrows() {
-           return matrix.size();
-        }
-
-        /*
-         * ncols:
-         * Usage: Matrix.ncols()
-         * ------------------------------------------
-         * Returns the number of columns of the matrix.
-         */
-        int ncols() {
-            return matrix[0].size();
-        }
-
-
-       private:
-        std::vector<std::vector<double> > matrix;
-    };
-
-    /*
      * gaussj:
      * Usage: ExperimentalData experimentalData()
      * ------------------------------------------

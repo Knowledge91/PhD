@@ -38,5 +38,27 @@ TEST_F(NumericalMethodsFixture, GaussianQuadrature) {
     EXPECT_NEAR(NumericalMethods::integrate(complexFunction, b, c).imag(), 373386.344001859 , 1e-1 );
 }
 
+TEST_F(NumericalMethodsFixture, GaussJordan) {
+//                        3  0  2             0.2  0.2 0
+//     the inverse of     2  0 -2 should be  -0.2  0.3 1
+//                        2  1  1             0.2 -0.3 0
+    std::vector<std::vector<double> > a(3, std::vector<double>(3));
+    a[0][0] = 3.; a[0][1] = 0.; a[0][2] = 2.;
+    a[1][0] = 2.; a[1][1] = 0.; a[1][2] = -2.;
+    a[2][0] = 0.; a[2][1] = 1.; a[2][2] = 1.;
+
+    NumericalMethods::gaussj(a);
+    EXPECT_NEAR(a[0][0], 0.2, 1e-15);
+    EXPECT_NEAR(a[0][1], 0.2, 1e-15);
+    EXPECT_NEAR(a[0][2], 0.0, 1e-15);
+    EXPECT_NEAR(a[1][0], -0.2, 1e-15);
+    EXPECT_NEAR(a[1][1], 0.3, 1e-15);
+    EXPECT_NEAR(a[1][2], 1, 1e-15);
+    EXPECT_NEAR(a[2][0], 0.2, 1e-15);
+    EXPECT_NEAR(a[2][1], -0.3, 1e-15);
+    EXPECT_NEAR(a[2][2], 0, 1e-15);
+}
+
+
 
 
