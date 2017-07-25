@@ -385,6 +385,12 @@
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/AdlerFunction.h">
 			<Option target="program"/>
 		</Unit>
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/Chisquared.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/Chisquared.h">
+			<Option target="program"/>
+		</Unit>
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/Constants.cpp">
 			<Option target="program"/>
 		</Unit>

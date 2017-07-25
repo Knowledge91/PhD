@@ -66,22 +66,29 @@ int main() {
 
 
 
-    // invert Matrix test
-    std::cout << " Matrix inverter " << std::endl;
-
-    std::vector<std::vector<double> > a(3, std::vector<double>(3));
-    a[0][0] = 3.; a[0][1] = 0.; a[0][2] = 2.;
-    a[1][0] = 2.; a[1][1] = 0.; a[1][2] = -2.;
-    a[2][0] = 0.; a[2][1] = 1.; a[2][2] = 1.;
-
-    std::vector<std::vector<double> > b(3, std::vector<double>(3));
-
-    b[0][0] = b[1][1] = b[2][2] = 1.;
-    b[0][1] = b[0][2] = b[1][0] = b[1][2] = b[2][0] = b[2][1] = 0.;
-
-    NumericalMethods::gaussj(a);
-    std::cout << " Call Matrix inverter " << a[0][0] << std::endl;
-
+//    // invert Matrix test
+//    std::cout << " Matrix inverter " << std::endl;
+//
+//    std::vector<std::vector<double> > a(3, std::vector<double>(3));
+//    a[0][0] = 3.; a[0][1] = 0.; a[0][2] = 2.;
+//    a[1][0] = 2.; a[1][1] = 0.; a[1][2] = -2.;
+//    a[2][0] = 0.; a[2][1] = 1.; a[2][2] = 1.;
+//
+//    std::vector<std::vector<double> > b(3, std::vector<double>(3));
+//
+//    b[0][0] = b[1][1] = b[2][2] = 1.;
+//    b[0][1] = b[0][2] = b[1][0] = b[1][2] = b[2][0] = b[2][1] = 0.;
+//
+//    NumericalMethods::gaussj(a);
+//    std::cout << " Call Matrix inverter " << a[0][0] << std::endl;
+//
+//    // invert correlation matrix
+//    NumericalMethods::gaussj(experimentalData.alephData.cor);
+//    for(int i = 0; i < 80; i++) {
+//        for (int j = 0; j < 80; j++)
+//            std::cout << experimentalData.alephData.cor[i][j] << " ";
+//        std::cout << std::endl;
+//    }
 
     return 0;
 }

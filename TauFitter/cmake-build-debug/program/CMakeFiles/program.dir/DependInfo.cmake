@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Knowledge/Developer/PhD/TauFitter/program/AdlerFunction.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/AdlerFunction.cpp.o"
+  "/Users/Knowledge/Developer/PhD/TauFitter/program/Chisquared.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/Chisquared.cpp.o"
   "/Users/Knowledge/Developer/PhD/TauFitter/program/Constants.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/Constants.cpp.o"
   "/Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/IntegralMomentum.cpp.o"
   "/Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/NumericalMethods.cpp.o"

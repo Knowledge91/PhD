@@ -4,6 +4,7 @@
 
 #include <cmath>
 #include <fstream>
+#include <vector>
 #include "ExperimentalData.h"
 #include "NumericalMethods.h"
 
@@ -24,6 +25,13 @@ ExperimentalData::ExperimentalData() {
         alephData.sbin.push_back(sbin[i]);
         alephData.binWidth.push_back(dsbin[i]);
         alephData.sfm2.push_back(sfm2[i]);
+
+        alephData.cor.resize(80);
+        for(int j = 0; j < 80; j++) {
+            alephData.cor[i].push_back(corerr[i][j]);
+            std::cout << alephData.cor[i][j] << " ";
+        }
+        std::cout << std::endl;
     }
 }
 

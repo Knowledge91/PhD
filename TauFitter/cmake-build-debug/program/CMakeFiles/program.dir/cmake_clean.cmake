@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o"
   "CMakeFiles/program.dir/experimentalData/num_const.f90.o"
   "CMakeFiles/program.dir/experimentalData/teubner.f.o"
+  "CMakeFiles/program.dir/Chisquared.cpp.o"
   "libprogram.pdb"
   "libprogram.a"
 )

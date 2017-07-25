@@ -198,6 +198,33 @@ AdlerFunction.cpp.s:
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/AdlerFunction.cpp.s
 .PHONY : AdlerFunction.cpp.s
 
+Chisquared.o: Chisquared.cpp.o
+
+.PHONY : Chisquared.o
+
+# target to build an object file
+Chisquared.cpp.o:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/Chisquared.cpp.o
+.PHONY : Chisquared.cpp.o
+
+Chisquared.i: Chisquared.cpp.i
+
+.PHONY : Chisquared.i
+
+# target to preprocess a source file
+Chisquared.cpp.i:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/Chisquared.cpp.i
+.PHONY : Chisquared.cpp.i
+
+Chisquared.s: Chisquared.cpp.s
+
+.PHONY : Chisquared.s
+
+# target to generate assembly for a file
+Chisquared.cpp.s:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/Chisquared.cpp.s
+.PHONY : Chisquared.cpp.s
+
 Constants.o: Constants.cpp.o
 
 .PHONY : Constants.o
@@ -430,6 +457,9 @@ help:
 	@echo "... AdlerFunction.o"
 	@echo "... AdlerFunction.i"
 	@echo "... AdlerFunction.s"
+	@echo "... Chisquared.o"
+	@echo "... Chisquared.i"
+	@echo "... Chisquared.s"
 	@echo "... Constants.o"
 	@echo "... Constants.i"
 	@echo "... Constants.s"

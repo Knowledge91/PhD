@@ -53,12 +53,12 @@ public:
         std::system(c);
     }
 
-private:
     struct AlephData {
     public:
-        std::vector<double> sbin;       // mass squared bin center in GeV^2
-        std::vector<double> binWidth;   // bin size in Gev^2
-        std::vector<double> sfm2;       // normalized invariant mass squared distribution
+        std::vector<double> sbin;               // mass squared bin center in GeV^2
+        std::vector<double> binWidth;           // bin size in Gev^2
+        std::vector<double> sfm2;               // normalized invariant mass squared distribution
+        std::vector<std::vector<double> > cor;  // correlation coefficients in %
     };
 
     /*

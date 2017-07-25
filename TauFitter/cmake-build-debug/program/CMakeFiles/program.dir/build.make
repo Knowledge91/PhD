@@ -273,6 +273,30 @@ program/CMakeFiles/program.dir/experimentalData/teubner.f.o.provides: program/CM
 program/CMakeFiles/program.dir/experimentalData/teubner.f.o.provides.build: program/CMakeFiles/program.dir/experimentalData/teubner.f.o
 
 
+program/CMakeFiles/program.dir/Chisquared.cpp.o: program/CMakeFiles/program.dir/flags.make
+program/CMakeFiles/program.dir/Chisquared.cpp.o: ../program/Chisquared.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object program/CMakeFiles/program.dir/Chisquared.cpp.o"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/Chisquared.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/Chisquared.cpp
+
+program/CMakeFiles/program.dir/Chisquared.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/Chisquared.cpp.i"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/Chisquared.cpp > CMakeFiles/program.dir/Chisquared.cpp.i
+
+program/CMakeFiles/program.dir/Chisquared.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/Chisquared.cpp.s"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/Chisquared.cpp -o CMakeFiles/program.dir/Chisquared.cpp.s
+
+program/CMakeFiles/program.dir/Chisquared.cpp.o.requires:
+
+.PHONY : program/CMakeFiles/program.dir/Chisquared.cpp.o.requires
+
+program/CMakeFiles/program.dir/Chisquared.cpp.o.provides: program/CMakeFiles/program.dir/Chisquared.cpp.o.requires
+	$(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/Chisquared.cpp.o.provides.build
+.PHONY : program/CMakeFiles/program.dir/Chisquared.cpp.o.provides
+
+program/CMakeFiles/program.dir/Chisquared.cpp.o.provides.build: program/CMakeFiles/program.dir/Chisquared.cpp.o
+
+
 # Object files for target program
 program_OBJECTS = \
 "CMakeFiles/program.dir/NumericalMethods.cpp.o" \
@@ -283,7 +307,8 @@ program_OBJECTS = \
 "CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o" \
 "CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o" \
 "CMakeFiles/program.dir/experimentalData/num_const.f90.o" \
-"CMakeFiles/program.dir/experimentalData/teubner.f.o"
+"CMakeFiles/program.dir/experimentalData/teubner.f.o" \
+"CMakeFiles/program.dir/Chisquared.cpp.o"
 
 # External object files for target program
 program_EXTERNAL_OBJECTS =
@@ -297,9 +322,10 @@ program/libprogram.a: program/CMakeFiles/program.dir/experimentalData/Experiment
 program/libprogram.a: program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o
 program/libprogram.a: program/CMakeFiles/program.dir/experimentalData/num_const.f90.o
 program/libprogram.a: program/CMakeFiles/program.dir/experimentalData/teubner.f.o
+program/libprogram.a: program/CMakeFiles/program.dir/Chisquared.cpp.o
 program/libprogram.a: program/CMakeFiles/program.dir/build.make
 program/libprogram.a: program/CMakeFiles/program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libprogram.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libprogram.a"
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && $(CMAKE_COMMAND) -P CMakeFiles/program.dir/cmake_clean_target.cmake
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/program.dir/link.txt --verbose=$(VERBOSE)
 
@@ -317,6 +343,7 @@ program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/experime
 program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o.requires
 program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/experimentalData/num_const.f90.o.requires
 program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/experimentalData/teubner.f.o.requires
+program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/Chisquared.cpp.o.requires
 
 .PHONY : program/CMakeFiles/program.dir/requires
 
