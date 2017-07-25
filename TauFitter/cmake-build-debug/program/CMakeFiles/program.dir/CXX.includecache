@@ -10068,18 +10068,6 @@ string
 cmath
 -
 
-/Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp
-IntegralMomentum.h
-/Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.h
-
-/Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.h
-complex
--
-AdlerFunction.h
--
-typeinfo
--
-
 /Users/Knowledge/Developer/PhD/TauFitter/program/Minuit2/RosenBrockFCN.h
 vector
 -
@@ -10113,6 +10101,18 @@ boost/math/tools/roots.hpp
 -
 Constants.h
 /Users/Knowledge/Developer/PhD/TauFitter/program/Constants.h
+
+/Users/Knowledge/Developer/PhD/TauFitter/program/Theory.cpp
+Theory.h
+/Users/Knowledge/Developer/PhD/TauFitter/program/Theory.h
+
+/Users/Knowledge/Developer/PhD/TauFitter/program/Theory.h
+complex
+-
+AdlerFunction.h
+-
+typeinfo
+-
 
 /Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/ExperimentalData.cpp
 cmath

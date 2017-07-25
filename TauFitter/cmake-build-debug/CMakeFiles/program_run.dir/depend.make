@@ -968,10 +968,10 @@ CMakeFiles/program_run.dir/main.cpp.o: ../frameworks/boost_1_64_0/boost/version.
 CMakeFiles/program_run.dir/main.cpp.o: ../program/AdlerFunction.h
 CMakeFiles/program_run.dir/main.cpp.o: ../program/Chisquared.h
 CMakeFiles/program_run.dir/main.cpp.o: ../program/Constants.h
-CMakeFiles/program_run.dir/main.cpp.o: ../program/IntegralMomentum.h
 CMakeFiles/program_run.dir/main.cpp.o: ../program/Minuit2/RosenBrockFCN.h
 CMakeFiles/program_run.dir/main.cpp.o: ../program/NumericalMethods.h
 CMakeFiles/program_run.dir/main.cpp.o: ../program/RunAlpha.h
+CMakeFiles/program_run.dir/main.cpp.o: ../program/Theory.h
 CMakeFiles/program_run.dir/main.cpp.o: ../program/experimentalData/ExperimentalData.h
 CMakeFiles/program_run.dir/main.cpp.o: ../main.cpp
 

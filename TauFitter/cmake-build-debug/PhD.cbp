@@ -397,12 +397,6 @@
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/Constants.h">
 			<Option target="program"/>
 		</Unit>
-		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp">
-			<Option target="program"/>
-		</Unit>
-		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.h">
-			<Option target="program"/>
-		</Unit>
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/Minuit2/RosenBrockFCN.h">
 			<Option target="program"/>
 		</Unit>
@@ -416,6 +410,12 @@
 			<Option target="program"/>
 		</Unit>
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.h">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/Theory.cpp">
+			<Option target="program"/>
+		</Unit>
+		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/Theory.h">
 			<Option target="program"/>
 		</Unit>
 		<Unit filename="/Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/ExperimentalData.cpp">

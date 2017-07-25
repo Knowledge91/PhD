@@ -10022,14 +10022,6 @@ string
 cmath
 -
 
-../program/IntegralMomentum.h
-complex
--
-AdlerFunction.h
--
-typeinfo
--
-
 ../program/Minuit2/RosenBrockFCN.h
 vector
 -
@@ -10056,6 +10048,14 @@ boost/math/tools/roots.hpp
 Constants.h
 ../program/Constants.h
 
+../program/Theory.h
+complex
+-
+AdlerFunction.h
+-
+typeinfo
+-
+
 ../program/experimentalData/ExperimentalData.h
 iostream
 -
@@ -10073,8 +10073,8 @@ vector
 -
 Constants.h
 /Users/Knowledge/Developer/PhD/TauFitter/Constants.h
-IntegralMomentum.h
-/Users/Knowledge/Developer/PhD/TauFitter/IntegralMomentum.h
+Theory.h
+/Users/Knowledge/Developer/PhD/TauFitter/Theory.h
 experimentalData/ExperimentalData.h
 /Users/Knowledge/Developer/PhD/TauFitter/experimentalData/ExperimentalData.h
 Chisquared.h

@@ -153,28 +153,28 @@ program/CMakeFiles/program.dir/AdlerFunction.cpp.o.provides: program/CMakeFiles/
 program/CMakeFiles/program.dir/AdlerFunction.cpp.o.provides.build: program/CMakeFiles/program.dir/AdlerFunction.cpp.o
 
 
-program/CMakeFiles/program.dir/IntegralMomentum.cpp.o: program/CMakeFiles/program.dir/flags.make
-program/CMakeFiles/program.dir/IntegralMomentum.cpp.o: ../program/IntegralMomentum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object program/CMakeFiles/program.dir/IntegralMomentum.cpp.o"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/IntegralMomentum.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp
+program/CMakeFiles/program.dir/Theory.cpp.o: program/CMakeFiles/program.dir/flags.make
+program/CMakeFiles/program.dir/Theory.cpp.o: ../program/Theory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object program/CMakeFiles/program.dir/Theory.cpp.o"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/Theory.cpp.o -c /Users/Knowledge/Developer/PhD/TauFitter/program/Theory.cpp
 
-program/CMakeFiles/program.dir/IntegralMomentum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/IntegralMomentum.cpp.i"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp > CMakeFiles/program.dir/IntegralMomentum.cpp.i
+program/CMakeFiles/program.dir/Theory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/Theory.cpp.i"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Knowledge/Developer/PhD/TauFitter/program/Theory.cpp > CMakeFiles/program.dir/Theory.cpp.i
 
-program/CMakeFiles/program.dir/IntegralMomentum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/IntegralMomentum.cpp.s"
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp -o CMakeFiles/program.dir/IntegralMomentum.cpp.s
+program/CMakeFiles/program.dir/Theory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/Theory.cpp.s"
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program && /opt/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Knowledge/Developer/PhD/TauFitter/program/Theory.cpp -o CMakeFiles/program.dir/Theory.cpp.s
 
-program/CMakeFiles/program.dir/IntegralMomentum.cpp.o.requires:
+program/CMakeFiles/program.dir/Theory.cpp.o.requires:
 
-.PHONY : program/CMakeFiles/program.dir/IntegralMomentum.cpp.o.requires
+.PHONY : program/CMakeFiles/program.dir/Theory.cpp.o.requires
 
-program/CMakeFiles/program.dir/IntegralMomentum.cpp.o.provides: program/CMakeFiles/program.dir/IntegralMomentum.cpp.o.requires
-	$(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/IntegralMomentum.cpp.o.provides.build
-.PHONY : program/CMakeFiles/program.dir/IntegralMomentum.cpp.o.provides
+program/CMakeFiles/program.dir/Theory.cpp.o.provides: program/CMakeFiles/program.dir/Theory.cpp.o.requires
+	$(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/Theory.cpp.o.provides.build
+.PHONY : program/CMakeFiles/program.dir/Theory.cpp.o.provides
 
-program/CMakeFiles/program.dir/IntegralMomentum.cpp.o.provides.build: program/CMakeFiles/program.dir/IntegralMomentum.cpp.o
+program/CMakeFiles/program.dir/Theory.cpp.o.provides.build: program/CMakeFiles/program.dir/Theory.cpp.o
 
 
 program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o: program/CMakeFiles/program.dir/flags.make
@@ -303,7 +303,7 @@ program_OBJECTS = \
 "CMakeFiles/program.dir/RunAlpha.cpp.o" \
 "CMakeFiles/program.dir/Constants.cpp.o" \
 "CMakeFiles/program.dir/AdlerFunction.cpp.o" \
-"CMakeFiles/program.dir/IntegralMomentum.cpp.o" \
+"CMakeFiles/program.dir/Theory.cpp.o" \
 "CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o" \
 "CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o" \
 "CMakeFiles/program.dir/experimentalData/num_const.f90.o" \
@@ -317,7 +317,7 @@ program/libprogram.a: program/CMakeFiles/program.dir/NumericalMethods.cpp.o
 program/libprogram.a: program/CMakeFiles/program.dir/RunAlpha.cpp.o
 program/libprogram.a: program/CMakeFiles/program.dir/Constants.cpp.o
 program/libprogram.a: program/CMakeFiles/program.dir/AdlerFunction.cpp.o
-program/libprogram.a: program/CMakeFiles/program.dir/IntegralMomentum.cpp.o
+program/libprogram.a: program/CMakeFiles/program.dir/Theory.cpp.o
 program/libprogram.a: program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o
 program/libprogram.a: program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o
 program/libprogram.a: program/CMakeFiles/program.dir/experimentalData/num_const.f90.o
@@ -338,7 +338,7 @@ program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/Numerica
 program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/RunAlpha.cpp.o.requires
 program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/Constants.cpp.o.requires
 program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/AdlerFunction.cpp.o.requires
-program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/IntegralMomentum.cpp.o.requires
+program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/Theory.cpp.o.requires
 program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o.requires
 program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/experimentalData/aleph14_vpa.f90.o.requires
 program/CMakeFiles/program.dir/requires: program/CMakeFiles/program.dir/experimentalData/num_const.f90.o.requires

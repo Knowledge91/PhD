@@ -252,33 +252,6 @@ Constants.cpp.s:
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/Constants.cpp.s
 .PHONY : Constants.cpp.s
 
-IntegralMomentum.o: IntegralMomentum.cpp.o
-
-.PHONY : IntegralMomentum.o
-
-# target to build an object file
-IntegralMomentum.cpp.o:
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/IntegralMomentum.cpp.o
-.PHONY : IntegralMomentum.cpp.o
-
-IntegralMomentum.i: IntegralMomentum.cpp.i
-
-.PHONY : IntegralMomentum.i
-
-# target to preprocess a source file
-IntegralMomentum.cpp.i:
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/IntegralMomentum.cpp.i
-.PHONY : IntegralMomentum.cpp.i
-
-IntegralMomentum.s: IntegralMomentum.cpp.s
-
-.PHONY : IntegralMomentum.s
-
-# target to generate assembly for a file
-IntegralMomentum.cpp.s:
-	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/IntegralMomentum.cpp.s
-.PHONY : IntegralMomentum.cpp.s
-
 NumericalMethods.o: NumericalMethods.cpp.o
 
 .PHONY : NumericalMethods.o
@@ -332,6 +305,33 @@ RunAlpha.s: RunAlpha.cpp.s
 RunAlpha.cpp.s:
 	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/RunAlpha.cpp.s
 .PHONY : RunAlpha.cpp.s
+
+Theory.o: Theory.cpp.o
+
+.PHONY : Theory.o
+
+# target to build an object file
+Theory.cpp.o:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/Theory.cpp.o
+.PHONY : Theory.cpp.o
+
+Theory.i: Theory.cpp.i
+
+.PHONY : Theory.i
+
+# target to preprocess a source file
+Theory.cpp.i:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/Theory.cpp.i
+.PHONY : Theory.cpp.i
+
+Theory.s: Theory.cpp.s
+
+.PHONY : Theory.s
+
+# target to generate assembly for a file
+Theory.cpp.s:
+	cd /Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug && $(MAKE) -f program/CMakeFiles/program.dir/build.make program/CMakeFiles/program.dir/Theory.cpp.s
+.PHONY : Theory.cpp.s
 
 experimentalData/ExperimentalData.o: experimentalData/ExperimentalData.cpp.o
 
@@ -463,15 +463,15 @@ help:
 	@echo "... Constants.o"
 	@echo "... Constants.i"
 	@echo "... Constants.s"
-	@echo "... IntegralMomentum.o"
-	@echo "... IntegralMomentum.i"
-	@echo "... IntegralMomentum.s"
 	@echo "... NumericalMethods.o"
 	@echo "... NumericalMethods.i"
 	@echo "... NumericalMethods.s"
 	@echo "... RunAlpha.o"
 	@echo "... RunAlpha.i"
 	@echo "... RunAlpha.s"
+	@echo "... Theory.o"
+	@echo "... Theory.i"
+	@echo "... Theory.s"
 	@echo "... experimentalData/ExperimentalData.o"
 	@echo "... experimentalData/ExperimentalData.i"
 	@echo "... experimentalData/ExperimentalData.s"

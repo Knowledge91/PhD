@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Knowledge/Developer/PhD/TauFitter/program/AdlerFunction.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/AdlerFunction.cpp.o"
   "/Users/Knowledge/Developer/PhD/TauFitter/program/Chisquared.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/Chisquared.cpp.o"
   "/Users/Knowledge/Developer/PhD/TauFitter/program/Constants.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/Constants.cpp.o"
-  "/Users/Knowledge/Developer/PhD/TauFitter/program/IntegralMomentum.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/IntegralMomentum.cpp.o"
   "/Users/Knowledge/Developer/PhD/TauFitter/program/NumericalMethods.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/NumericalMethods.cpp.o"
   "/Users/Knowledge/Developer/PhD/TauFitter/program/RunAlpha.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/RunAlpha.cpp.o"
+  "/Users/Knowledge/Developer/PhD/TauFitter/program/Theory.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/Theory.cpp.o"
   "/Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/ExperimentalData.cpp" "/Users/Knowledge/Developer/PhD/TauFitter/cmake-build-debug/program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

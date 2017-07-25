@@ -969,9 +969,9 @@ CMakeFiles/program_run.dir/main.cpp.o
  ../program/AdlerFunction.h
  ../program/Chisquared.h
  ../program/Constants.h
- ../program/IntegralMomentum.h
  ../program/Minuit2/RosenBrockFCN.h
  ../program/NumericalMethods.h
  ../program/RunAlpha.h
+ ../program/Theory.h
  ../program/experimentalData/ExperimentalData.h
  /Users/Knowledge/Developer/PhD/TauFitter/main.cpp

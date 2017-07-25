@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "Constants.h"
-#include "IntegralMomentum.h"
+#include "Theory.h"
 #include "experimentalData/ExperimentalData.h"
 #include "Chisquared.h"
 
@@ -33,7 +33,7 @@ int main() {
     std::cout << "Tau fitter start..." << std::endl;
 
 //    Constants constants(3, 3, 4);
-//    IntegralMomentum integralMomentum(constants);
+//    Theory integralMomentum(constants);
 //
 //    std::cout << "countour " << integralMomentum.contourIntegral(2.5) << std::endl;
 //
