@@ -16,40 +16,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="305c66df-4acc-4873-bc98-aac106650544" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/program/Chisquared.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/program/Chisquared.h" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/Chisquared.cpp.o" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/program_run.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/program_run.dir/main.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/experimentalData/ExperimentalData.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/libprogram.a" afterPath="$PROJECT_DIR$/cmake-build-debug/program/libprogram.a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_run" afterPath="$PROJECT_DIR$/cmake-build-debug/program_run" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_run.dSYM/Contents/Resources/DWARF/program_run" afterPath="$PROJECT_DIR$/cmake-build-debug/program_run.dSYM/Contents/Resources/DWARF/program_run" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/ExperimentalData.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/ExperimentalData.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/runBasicTests" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/runBasicTests" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/runBasicTests.dSYM/Contents/Resources/DWARF/runBasicTests" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/runBasicTests.dSYM/Contents/Resources/DWARF/runBasicTests" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/program_run.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/program_run.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/PhD.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/PhD.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/program_run.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/program_run.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/program_run.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/program_run.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/program_run.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/program_run.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/cmake_clean.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/depend.internal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/program.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/program/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/program/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/program_test/basic_tests/CMakeFiles/runBasicTests.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/CMakeLists.txt" afterPath="$PROJECT_DIR$/program/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/Chisquared.h" afterPath="$PROJECT_DIR$/program/Chisquared.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp" afterPath="$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/experimentalData/ExperimentalData.h" afterPath="$PROJECT_DIR$/program/experimentalData/ExperimentalData.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="64" column="40" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="64" selection-end-column="40" />
+            <state relative-caret-position="702">
+              <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -83,13 +65,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chisquared.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NumericalMethods.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/NumericalMethods.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding>
+                <element signature="e#109#125#0" expanded="true" />
+                <element signature="e#173#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chisquared.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/program/Chisquared.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="420">
+              <caret line="55" column="41" lean-forward="false" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
               <folding>
-                <element signature="e#97#133#0" expanded="true" />
+                <element signature="e#97#143#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,20 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumericalMethodsFixture.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program_test/basic_tests/NumericalMethodsFixture.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="aleph14_vpa.f90" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program/experimentalData/aleph14_vpa.f90">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5469">
+            <state relative-caret-position="5722">
               <caret line="389" column="69" lean-forward="false" selection-start-line="389" selection-start-column="69" selection-end-line="389" selection-end-column="69" />
               <folding />
             </state>
@@ -128,8 +113,8 @@
       <file leaf-file-name="ExperimentalData.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program/experimentalData/ExperimentalData.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#85#104#0" expanded="true" />
               </folding>
@@ -140,8 +125,8 @@
       <file leaf-file-name="ExperimentalData.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="203">
+              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="e#46#62#0" expanded="true" />
               </folding>
@@ -221,10 +206,10 @@
         <option value="$PROJECT_DIR$/program/Constants.h" />
         <option value="$PROJECT_DIR$/program/NumericalMethods.h" />
         <option value="$PROJECT_DIR$/program_test/basic_tests/NumericalMethodsFixture.cpp" />
-        <option value="$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp" />
-        <option value="$PROJECT_DIR$/program/experimentalData/ExperimentalData.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/program/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/program/experimentalData/ExperimentalData.h" />
         <option value="$PROJECT_DIR$/program/Chisquared.h" />
       </list>
     </option>
@@ -272,6 +257,12 @@
               <item name="PhD" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="TauFitter" type="462c0819:PsiDirectoryNode" />
               <item name="program" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhD" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="TauFitter" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+              <item name="experimentalData" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhD" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
@@ -561,7 +552,7 @@
       <workItem from="1500537706286" duration="2389000" />
       <workItem from="1500636060973" duration="1149000" />
       <workItem from="1500884004870" duration="6507000" />
-      <workItem from="1500964671722" duration="4554000" />
+      <workItem from="1500964671722" duration="8723000" />
     </task>
     <servers />
   </component>
@@ -598,21 +589,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89379000" />
+    <option name="totallyTimeSpent" value="93548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2764706" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38921455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24941176" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -621,7 +613,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -633,7 +624,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -869,32 +860,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/NumericalMethods.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="e#109#125#0" expanded="true" />
-            <element signature="e#173#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/program_test/basic_tests/NumericalMethodsFixture.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
           <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#62#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,21 +886,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/experimentalData/ExperimentalData.h">
+    <entry file="file://$PROJECT_DIR$/program/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="167" lean-forward="false" selection-start-line="0" selection-start-column="167" selection-end-line="0" selection-end-column="167" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/experimentalData/ExperimentalData.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
-            <element signature="e#85#104#0" expanded="true" />
+            <element signature="e#46#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/experimentalData/aleph14_vpa.f90">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5469">
-          <caret line="389" column="69" lean-forward="false" selection-start-line="389" selection-start-column="69" selection-end-line="389" selection-end-column="69" />
-          <folding />
+        <state relative-caret-position="702">
+          <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/NumericalMethods.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="e#109#125#0" expanded="true" />
+            <element signature="e#173#182#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -942,30 +933,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/program/experimentalData/aleph14_vpa.f90">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="167" lean-forward="false" selection-start-line="0" selection-start-column="167" selection-end-line="0" selection-end-column="167" />
+        <state relative-caret-position="5722">
+          <caret line="389" column="69" lean-forward="false" selection-start-line="389" selection-start-column="69" selection-end-line="389" selection-end-column="69" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/experimentalData/ExperimentalData.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#85#104#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/program/Chisquared.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="55" column="41" lean-forward="false" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
           <folding>
-            <element signature="e#97#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="64" column="40" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="64" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#97#143#0" expanded="true" />
           </folding>
         </state>
       </provider>

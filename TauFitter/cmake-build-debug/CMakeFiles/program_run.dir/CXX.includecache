@@ -10000,6 +10000,22 @@ RunAlpha.h
 NumericalMethods.h
 ../program/NumericalMethods.h
 
+../program/Chisquared.h
+experimentalData/ExperimentalData.h
+../program/experimentalData/ExperimentalData.h
+Minuit2/FunctionMinimum.h
+../program/Minuit2/FunctionMinimum.h
+Minuit2/RosenBrockFCN.h
+../program/Minuit2/RosenBrockFCN.h
+Minuit2/MnMigrad.h
+../program/Minuit2/MnMigrad.h
+Minuit2/MnUserParameters.h
+../program/Minuit2/MnUserParameters.h
+Minuit2/Minuit2Minimizer.h
+../program/Minuit2/Minuit2Minimizer.h
+Math/Functor.h
+../program/Math/Functor.h
+
 ../program/Constants.h
 string
 -
@@ -10061,16 +10077,6 @@ IntegralMomentum.h
 /Users/Knowledge/Developer/PhD/TauFitter/IntegralMomentum.h
 experimentalData/ExperimentalData.h
 /Users/Knowledge/Developer/PhD/TauFitter/experimentalData/ExperimentalData.h
-Minuit2/FunctionMinimum.h
-/Users/Knowledge/Developer/PhD/TauFitter/Minuit2/FunctionMinimum.h
-Minuit2/RosenBrockFCN.h
-/Users/Knowledge/Developer/PhD/TauFitter/Minuit2/RosenBrockFCN.h
-Minuit2/MnMigrad.h
-/Users/Knowledge/Developer/PhD/TauFitter/Minuit2/MnMigrad.h
-Minuit2/MnUserParameters.h
-/Users/Knowledge/Developer/PhD/TauFitter/Minuit2/MnUserParameters.h
-Minuit2/Minuit2Minimizer.h
-/Users/Knowledge/Developer/PhD/TauFitter/Minuit2/Minuit2Minimizer.h
-Math/Functor.h
-/Users/Knowledge/Developer/PhD/TauFitter/Math/Functor.h
+Chisquared.h
+/Users/Knowledge/Developer/PhD/TauFitter/Chisquared.h
 

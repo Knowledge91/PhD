@@ -29,9 +29,9 @@ ExperimentalData::ExperimentalData() {
         alephData.cor.resize(80);
         for(int j = 0; j < 80; j++) {
             alephData.cor[i].push_back(corerr[i][j]);
-            std::cout << alephData.cor[i][j] << " ";
+//            std::cout << alephData.cor[i][j] << " ";
         }
-        std::cout << std::endl;
+//        std::cout << std::endl;
     }
 }
 

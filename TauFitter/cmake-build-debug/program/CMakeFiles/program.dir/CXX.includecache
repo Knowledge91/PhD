@@ -10043,6 +10043,8 @@ Chisquared.h
 /Users/Knowledge/Developer/PhD/TauFitter/program/Chisquared.h
 
 /Users/Knowledge/Developer/PhD/TauFitter/program/Chisquared.h
+experimentalData/ExperimentalData.h
+/Users/Knowledge/Developer/PhD/TauFitter/program/experimentalData/ExperimentalData.h
 Minuit2/FunctionMinimum.h
 /Users/Knowledge/Developer/PhD/TauFitter/program/Minuit2/FunctionMinimum.h
 Minuit2/RosenBrockFCN.h

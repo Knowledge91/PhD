@@ -971,9 +971,11 @@ program/CMakeFiles/program.dir/Chisquared.cpp.o: ../frameworks/Minuit2-5.34.14/i
 program/CMakeFiles/program.dir/Chisquared.cpp.o: ../frameworks/Minuit2-5.34.14/inc/Minuit2/VariableMetricEDMEstimator.h
 program/CMakeFiles/program.dir/Chisquared.cpp.o: ../frameworks/Minuit2-5.34.14/inc/Minuit2/VariableMetricMinimizer.h
 program/CMakeFiles/program.dir/Chisquared.cpp.o: ../frameworks/Minuit2-5.34.14/inc/Minuit2/VectorOuterProduct.h
+program/CMakeFiles/program.dir/Chisquared.cpp.o: ../program/Constants.h
 program/CMakeFiles/program.dir/Chisquared.cpp.o: ../program/Chisquared.cpp
 program/CMakeFiles/program.dir/Chisquared.cpp.o: ../program/Chisquared.h
 program/CMakeFiles/program.dir/Chisquared.cpp.o: ../program/Minuit2/RosenBrockFCN.h
+program/CMakeFiles/program.dir/Chisquared.cpp.o: ../program/experimentalData/ExperimentalData.h
 
 program/CMakeFiles/program.dir/Constants.cpp.o: ../program/Constants.cpp
 program/CMakeFiles/program.dir/Constants.cpp.o: ../program/Constants.h

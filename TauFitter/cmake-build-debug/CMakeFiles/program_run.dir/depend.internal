@@ -967,6 +967,7 @@ CMakeFiles/program_run.dir/main.cpp.o
  ../frameworks/boost_1_64_0/boost/utility/swap.hpp
  ../frameworks/boost_1_64_0/boost/version.hpp
  ../program/AdlerFunction.h
+ ../program/Chisquared.h
  ../program/Constants.h
  ../program/IntegralMomentum.h
  ../program/Minuit2/RosenBrockFCN.h
